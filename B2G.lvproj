@@ -129,8 +129,8 @@
 		<Item Name="host - network - RT (separate).vi" Type="VI" URL="../host - network - RT (separate).vi"/>
 		<Item Name="variables - network - RT (separate).lvlib" Type="Library" URL="../variables - network - RT (separate).lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="Input - Cluster.ctl" Type="VI" URL="../../../../../../National Instruments/Kurse/LabView Real-Time 1/Exercises/LabVIEW Real-Time 1/Basic RT Setup/Input - Cluster.ctl"/>
-			<Item Name="Output - Cluster.ctl" Type="VI" URL="../../../../../../National Instruments/Kurse/LabView Real-Time 1/Exercises/LabVIEW Real-Time 1/Basic RT Setup/Output - Cluster.ctl"/>
+			<Item Name="Input - Cluster.ctl" Type="VI" URL="../Input - Cluster.ctl"/>
+			<Item Name="Output - Cluster.ctl" Type="VI" URL="../Output - Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -1792,8 +1792,7 @@ KeepAliveTimeout 60
 		</Item>
 		<Item Name="variables - network - RT (separate).lvlib" Type="Library" URL="../variables - network - RT (separate).lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="Input - Cluster.ctl" Type="VI" URL="../../../../../../National Instruments/Kurse/LabView Real-Time 1/Exercises/LabVIEW Real-Time 1/Basic RT Setup/Input - Cluster.ctl"/>
-			<Item Name="Output - Cluster.ctl" Type="VI" URL="../../../../../../National Instruments/Kurse/LabView Real-Time 1/Exercises/LabVIEW Real-Time 1/Basic RT Setup/Output - Cluster.ctl"/>
+			<Item Name="Output - Cluster.ctl" Type="VI" URL="../Output - Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
