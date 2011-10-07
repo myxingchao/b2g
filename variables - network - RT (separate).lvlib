@@ -22,8 +22,8 @@
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">Output - Cluster.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../../../../../National Instruments/Kurse/LabView Real-Time 1/Exercises/LabVIEW Real-Time 1/Basic RT Setup/Output - Cluster.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$'QA!!!"%!A!A!!!!'!".!#A!.9W^V&lt;H2F=C"W97RV:1!21!I!#W:J&lt;'QA&lt;'6W:7RM!!^!#A!*:GRP&gt;S"S982F!!^!#A!)=(*F=X.V=G5!!!R!)1&gt;D&lt;X6O&gt;'6S!%-!]1!!!!!!!!!"&amp;%^V&gt;("V&gt;#!N)%.M&gt;8.U:8)O9X2M!#:!5!!&amp;!!!!!1!#!!-!"""0&gt;82Q&gt;81A,3"$&lt;(6T&gt;'6S!!!"!!5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Output - Cluster.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%T,Q%!!"%!A!A!!!!.!".!#!!-2%:4,4%A6G^M&gt;7VF!!!,1!I!"%:4,4-!!"6!#A!02%:4,4%A2GRP&gt;S"S982F!!N!#A!%2&amp;-N-1!!#E!B"&amp;9N-4!!!!J!)127,4%U!!!+1#%%2F-N-1!!#E!B"%:4,4)!!!N!#A!%6&amp;-N.!!!#E!B"%B4,4%!!!N!#A!%6CUR-Q!!#U!+!!27,4%V!!"2!0%!!!!!!!!!!220&gt;82Q&gt;81A,3"$&lt;(6T&gt;'6S,G.U&lt;!!U1&amp;!!$!!!!!%!!A!$!!1!"1!'!!=!#!!*!!I!#R"0&gt;82Q&gt;81A,3"$&lt;(6T&gt;'6S!!!"!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="stop - network" Type="Variable">
 		<Property Name="description" Type="Str"></Property>
@@ -66,8 +66,8 @@
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">True</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Output - Cluster.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../../../../../National Instruments/Kurse/LabView Real-Time 1/Exercises/LabVIEW Real-Time 1/Basic RT Setup/Output - Cluster.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$'QA!!!"%!A!A!!!!'!".!#A!.9W^V&lt;H2F=C"W97RV:1!21!I!#W:J&lt;'QA&lt;'6W:7RM!!^!#A!*:GRP&gt;S"S982F!!^!#A!)=(*F=X.V=G5!!!R!)1&gt;D&lt;X6O&gt;'6S!%-!]1!!!!!!!!!"&amp;%^V&gt;("V&gt;#!N)%.M&gt;8.U:8)O9X2M!#:!5!!&amp;!!!!!1!#!!-!"""0&gt;82Q&gt;81A,3"$&lt;(6T&gt;'6S!!!"!!5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Output - Cluster.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%T,Q%!!"%!A!A!!!!.!".!#!!-2%:4,4%A6G^M&gt;7VF!!!,1!I!"%:4,4-!!"6!#A!02%:4,4%A2GRP&gt;S"S982F!!N!#A!%2&amp;-N-1!!#E!B"&amp;9N-4!!!!J!)127,4%U!!!+1#%%2F-N-1!!#E!B"%:4,4)!!!N!#A!%6&amp;-N.!!!#E!B"%B4,4%!!!N!#A!%6CUR-Q!!#U!+!!27,4%V!!"2!0%!!!!!!!!!!220&gt;82Q&gt;81A,3"$&lt;(6T&gt;'6S,G.U&lt;!!U1&amp;!!$!!!!!%!!A!$!!1!"1!'!!=!#!!*!!I!#R"0&gt;82Q&gt;81A,3"$&lt;(6T&gt;'6S!!!"!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="stop - RT" Type="Variable">
 		<Property Name="description" Type="Str"></Property>
@@ -98,8 +98,8 @@
 		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">Input - Cluster.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../../../../../National Instruments/Kurse/LabView Real-Time 1/Exercises/LabVIEW Real-Time 1/Basic RT Setup/Input - Cluster.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#3DA!!!"%!A!A!!!!'!!N!"1!%6CUR-Q!!#U!&amp;!!27,4%V!!!-1#%'5F1A4'^H!!!)1#%$5#UU!!^!"1!*5#UU)(.Q:76E!%!!]1!!!!!!!!!"%UFO=(6U)#UA1WRV=X2F=CZD&gt;'Q!*%"1!!5!!!!"!!)!!Q!%$UFO=(6U)#UA1WRV=X2F=A!"!!5!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Input - Cluster.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'?GA%!!"%!A!A!!!!6!!N!"1!%6CUR-Q!!#U!&amp;!!27,4%V!!!11#%+4'^H,62B=G&gt;F&gt;!!!#%!B!V!N.!!41!5!$&amp;!N.#"%=G6I?G&amp;I&lt;!!!$E!B#5&amp;V&gt;']N6'6N=!!11#%+186U&lt;SV%=H6D;Q!!&amp;%!B$E&amp;V&gt;']N2PRM&lt;(.U97ZE!!!+1#%%6CUR-!!!$E!B#%RP:SV)&lt;X.U!!!+1#%%6CUR.!!!#%!B!V!N.1!41!5!$&amp;!N.3"%=G6I?G&amp;I&lt;!!!#E!B"%B4,4%!!!&gt;!#A!"5!!(1!I!!5E!"U!+!!&amp;%!!^!#A!)5W6U='^J&lt;H1!!!Z!)1B1351A186U&lt;Q!!#5!+!!*E&gt;!!!8A$R!!!!!!!!!!%437ZQ&gt;81A,3"$&lt;(6T&gt;'6S,G.U&lt;!"#1&amp;!!&amp;!!!!!%!!A!$!!1!"1!'!!=!#!!*!!I!#Q!-!!U!$A!0!"!!%1!3!"-037ZQ&gt;81A,3"$&lt;(6T&gt;'6S!!%!&amp;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="input - RT" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
@@ -114,7 +114,7 @@
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">True</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Input - Cluster.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../../../../../National Instruments/Kurse/LabView Real-Time 1/Exercises/LabVIEW Real-Time 1/Basic RT Setup/Input - Cluster.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#3DA!!!"%!A!A!!!!'!!N!"1!%6CUR-Q!!#U!&amp;!!27,4%V!!!-1#%'5F1A4'^H!!!)1#%$5#UU!!^!"1!*5#UU)(.Q:76E!%!!]1!!!!!!!!!"%UFO=(6U)#UA1WRV=X2F=CZD&gt;'Q!*%"1!!5!!!!"!!)!!Q!%$UFO=(6U)#UA1WRV=X2F=A!"!!5!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Input - Cluster.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'?GA%!!"%!A!A!!!!6!!N!"1!%6CUR-Q!!#U!&amp;!!27,4%V!!!11#%+4'^H,62B=G&gt;F&gt;!!!#%!B!V!N.!!41!5!$&amp;!N.#"%=G6I?G&amp;I&lt;!!!$E!B#5&amp;V&gt;']N6'6N=!!11#%+186U&lt;SV%=H6D;Q!!&amp;%!B$E&amp;V&gt;']N2PRM&lt;(.U97ZE!!!+1#%%6CUR-!!!$E!B#%RP:SV)&lt;X.U!!!+1#%%6CUR.!!!#%!B!V!N.1!41!5!$&amp;!N.3"%=G6I?G&amp;I&lt;!!!#E!B"%B4,4%!!!&gt;!#A!"5!!(1!I!!5E!"U!+!!&amp;%!!^!#A!)5W6U='^J&lt;H1!!!Z!)1B1351A186U&lt;Q!!#5!+!!*E&gt;!!!8A$R!!!!!!!!!!%437ZQ&gt;81A,3"$&lt;(6T&gt;'6S,G.U&lt;!"#1&amp;!!&amp;!!!!!%!!A!$!!1!"1!'!!=!#!!*!!I!#Q!-!!U!$A!0!"!!%1!3!"-037ZQ&gt;81A,3"$&lt;(6T&gt;'6S!!%!&amp;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
