@@ -58,7 +58,7 @@
 	<Property Name="varPersistentID:{4D3B43ED-5533-4C60-AFB5-6203396AE366}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Füllstandsregelung 1/error in</Property>
 	<Property Name="varPersistentID:{4E4F974D-F74E-44CD-B7DE-A793E3520B6C}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Füllstandsregelung/proportional gain (Kc)</Property>
 	<Property Name="varPersistentID:{4E6E5525-B3DC-402D-8135-ED9F10FD6E38}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/PID/output high</Property>
-	<Property Name="varPersistentID:{50565A19-BB0E-4815-BA2F-64551726FA4E}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/B2G1 V-10 1</Property>
+	<Property Name="varPersistentID:{50565A19-BB0E-4815-BA2F-64551726FA4E}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/B2G1 V-10 0</Property>
 	<Property Name="varPersistentID:{51EA3F31-3FFF-4DA7-B48F-31019BBF900D}" Type="Ref">/My Computer/variables - network - RT (separate).lvlib/stop - RT</Property>
 	<Property Name="varPersistentID:{5220F936-99C2-457B-BE35-C95B9F1F8FFA}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/DO24</Property>
 	<Property Name="varPersistentID:{5221DAF8-1E5C-448A-B191-DAD562F33E83}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/DO27</Property>
@@ -84,7 +84,7 @@
 	<Property Name="varPersistentID:{6783FF71-4D4A-4B08-B596-72AA883D608D}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/DI31</Property>
 	<Property Name="varPersistentID:{68592BAB-DE03-488B-BBFE-9FD4A0D18A8C}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Füllstandsregelung 1/linearity</Property>
 	<Property Name="varPersistentID:{68B6B07C-AF21-4D1A-94D4-BC5CA0B697B7}" Type="Ref">/My Computer/variables - network - RT (separate).lvlib/data - RT</Property>
-	<Property Name="varPersistentID:{68BA746D-E0E3-4233-A5E2-8D1EF566F81D}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/B2G1 V-10 0</Property>
+	<Property Name="varPersistentID:{68BA746D-E0E3-4233-A5E2-8D1EF566F81D}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/B2G1 V-10 1</Property>
 	<Property Name="varPersistentID:{697DC684-0CD6-4B94-8996-9F72E6B006ED}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Überdruckreglung/setpoint low</Property>
 	<Property Name="varPersistentID:{6A134687-F3CD-4E85-A7FB-358FB39C9D6F}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Überdruckreglung/reinitialize? (F)</Property>
 	<Property Name="varPersistentID:{6BCA27BF-7203-4DA1-9E10-D530A2797864}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Füllstandsregelung 1/manual control</Property>
@@ -194,7 +194,7 @@
 	<Property Name="varPersistentID:{E89BECEB-2842-42C7-A75E-DA60052A12E6}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/B2G1 V-10</Property>
 	<Property Name="varPersistentID:{E90B3561-AD39-4880-8451-B8CBD8009523}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/DO16</Property>
 	<Property Name="varPersistentID:{EBE3A167-D87B-472F-A14C-D84BFB464AEB}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/DO30</Property>
-	<Property Name="varPersistentID:{EC20A204-FE92-4C44-99C2-1DF527756C0A}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/B2G1 V-14 1</Property>
+	<Property Name="varPersistentID:{EC20A204-FE92-4C44-99C2-1DF527756C0A}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/B2G1 V-14 0</Property>
 	<Property Name="varPersistentID:{EC360F39-69F4-4F12-9EBE-7EC4F9E9BECB}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Füllstandsregelung/output low</Property>
 	<Property Name="varPersistentID:{ED6AF278-2422-4E8A-8671-529FBB1B6CE4}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Füllstandsregelung/linearity</Property>
 	<Property Name="varPersistentID:{EF8384E0-2AC5-4379-AE4F-5BFAB7FD6039}" Type="Ref">/RT CompactRIO Target/Chassis/AII1/AI10</Property>
@@ -202,7 +202,7 @@
 	<Property Name="varPersistentID:{F20581C0-64AC-44CD-8418-1B27A45568C7}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Überdruckreglung 1/output high</Property>
 	<Property Name="varPersistentID:{F41C7B01-EA28-460E-8C6F-63DE2FFFE248}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/PID/setpoint</Property>
 	<Property Name="varPersistentID:{F4302048-0AB6-4761-849A-2829DC2C9889}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/DO10</Property>
-	<Property Name="varPersistentID:{F5422677-142C-4382-9625-D502EFA0BCE6}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/B2G1 V-14 0</Property>
+	<Property Name="varPersistentID:{F5422677-142C-4382-9625-D502EFA0BCE6}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/B2G1 V-14 1</Property>
 	<Property Name="varPersistentID:{F593CD22-E028-468A-A60C-16CD0339BA5E}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Überdruckreglung 1/derivative time (Td, min)</Property>
 	<Property Name="varPersistentID:{F755ABD5-BCBC-4297-9DD7-4E27AF64968C}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Count Up/count up</Property>
 	<Property Name="varPersistentID:{F7EB1658-2F79-4060-9897-FB2E1F71FACF}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/PID/setpoint high</Property>
@@ -924,22 +924,8 @@ KeepAliveTimeout 60
 				<Item Name="B2G1 V-10 0" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">DI1</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="Path" Type="Str">/B2G.lvproj/RT CompactRIO Target/Chassis/DI1/</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"%!A!A!!!!"!!1!)1!"!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="B2G1 V-10 1" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -947,27 +933,25 @@ KeepAliveTimeout 60
 					<Property Name="Network:UseBinding" Type="Str">False</Property>
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="Path" Type="Str">/B2G.lvproj/RT CompactRIO Target/Chassis/DI1/</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"%!A!A!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
-				<Item Name="B2G1 V-14 0" Type="Variable">
+				<Item Name="B2G1 V-10 1" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
 					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">DI3</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">DI1</Property>
 					<Property Name="Network:UseBinding" Type="Str">False</Property>
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="Path" Type="Str">/B2G.lvproj/RT CompactRIO Target/Chassis/DI1/</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
-				<Item Name="B2G1 V-14 1" Type="Variable">
+				<Item Name="B2G1 V-14 0" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
@@ -979,7 +963,21 @@ KeepAliveTimeout 60
 					<Property Name="Network:UseBinding" Type="Str">False</Property>
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="Path" Type="Str">/B2G.lvproj/RT CompactRIO Target/Chassis/DI1/</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+				</Item>
+				<Item Name="B2G1 V-14 1" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">DI3</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
@@ -1993,6 +1991,7 @@ KeepAliveTimeout 60
 		<Item Name="variables - network - RT (separate).lvlib" Type="Library" URL="../variables - network - RT (separate).lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="FB Overlay DBL.ctl" Type="VI" URL="/&lt;vilib&gt;/functionblocks/FB Property/FB Overlay DBL.ctl"/>
 			</Item>
 			<Item Name="Input - Cluster.ctl" Type="VI" URL="../Input - Cluster.ctl"/>
