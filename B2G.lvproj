@@ -75,7 +75,7 @@
 	<Property Name="varPersistentID:{5F2A7701-30A6-4038-844D-A37C25E32AE5}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/DI21</Property>
 	<Property Name="varPersistentID:{5FAAC9BF-2688-4C27-A1CB-640669AEAADC}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Count Up/done</Property>
 	<Property Name="varPersistentID:{604AD380-C96C-4158-93D6-77E6ACFC488B}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Überdruckreglung/setpoint</Property>
-	<Property Name="varPersistentID:{60E45A40-7F9C-430D-A210-907166061776}" Type="Ref">/RT CompactRIO Target/Chassis/AII1/AI6</Property>
+	<Property Name="varPersistentID:{60E45A40-7F9C-430D-A210-907166061776}" Type="Ref">/RT CompactRIO Target/Chassis/AII1/B2G1 FS-2</Property>
 	<Property Name="varPersistentID:{6398086A-1EF3-4291-94AF-551B97D97F29}" Type="Ref">/RT CompactRIO Target/Chassis/AOU1/AO6</Property>
 	<Property Name="varPersistentID:{64456C72-B86A-4246-AF83-4311D4ABF564}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/PID/dt out (s)</Property>
 	<Property Name="varPersistentID:{650B0758-8ACE-493E-9F22-644F0F6EE8C8}" Type="Ref">/RT CompactRIO Target/Chassis/AOU1/AO4</Property>
@@ -157,7 +157,7 @@
 	<Property Name="varPersistentID:{C51660AA-4BC1-4A75-8262-CD8CEB06C6A5}" Type="Ref">/RT CompactRIO Target/Chassis/AOU1/B2G1 P-5</Property>
 	<Property Name="varPersistentID:{C6310376-11F2-4FF3-B687-E49B2D37E8EC}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/DI17</Property>
 	<Property Name="varPersistentID:{C635D66A-8B0D-4F9C-ACDC-085524FFF760}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Überdruckreglung/auto? (T)</Property>
-	<Property Name="varPersistentID:{C6A6C20D-2307-4A10-A1A7-A137D0B12FF5}" Type="Ref">/RT CompactRIO Target/Chassis/AII1/AI5</Property>
+	<Property Name="varPersistentID:{C6A6C20D-2307-4A10-A1A7-A137D0B12FF5}" Type="Ref">/RT CompactRIO Target/Chassis/AII1/B2G1 FS-1</Property>
 	<Property Name="varPersistentID:{C85923FD-2C98-471B-BC01-2644BF8114EE}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/DO17</Property>
 	<Property Name="varPersistentID:{C9CE772E-67A3-49A1-9586-1B5731E700DA}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/DO7</Property>
 	<Property Name="varPersistentID:{CB76094C-E6FB-4BEF-B1F9-5FD76C08541D}" Type="Ref">/RT CompactRIO Target/Chassis/AII1/AI9</Property>
@@ -201,7 +201,7 @@
 	<Property Name="varPersistentID:{F1ECAB40-DEF2-49C2-A551-B40C48C25E92}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Überdruckreglung 1/error in</Property>
 	<Property Name="varPersistentID:{F20581C0-64AC-44CD-8418-1B27A45568C7}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Überdruckreglung 1/output high</Property>
 	<Property Name="varPersistentID:{F41C7B01-EA28-460E-8C6F-63DE2FFFE248}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/PID/setpoint</Property>
-	<Property Name="varPersistentID:{F4302048-0AB6-4761-849A-2829DC2C9889}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/DO10</Property>
+	<Property Name="varPersistentID:{F4302048-0AB6-4761-849A-2829DC2C9889}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/B2G1 HS-1</Property>
 	<Property Name="varPersistentID:{F5422677-142C-4382-9625-D502EFA0BCE6}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/B2G1 V-14 1</Property>
 	<Property Name="varPersistentID:{F593CD22-E028-468A-A60C-16CD0339BA5E}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Überdruckreglung 1/derivative time (Td, min)</Property>
 	<Property Name="varPersistentID:{F755ABD5-BCBC-4297-9DD7-4E27AF64968C}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Count Up/count up</Property>
@@ -244,7 +244,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -364,34 +363,6 @@ KeepAliveTimeout 60
 				<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
 				<Property Name="cRIOModule.Enable Open TC Detection" Type="Str">true</Property>
 				<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
-				<Item Name="AI5" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI5</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI6" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI6</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
 				<Item Name="AI7" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
@@ -538,6 +509,13 @@ KeepAliveTimeout 60
 					<Property Name="Network:UseBinding" Type="Str">False</Property>
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="Scaling:Coerce" Type="Str">False</Property>
+					<Property Name="Scaling:EngMax" Type="Str">100.000000</Property>
+					<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
+					<Property Name="Scaling:EngUnit" Type="Str">%</Property>
+					<Property Name="Scaling:RawMax" Type="Str">0.020000</Property>
+					<Property Name="Scaling:RawMin" Type="Str">0.004000</Property>
+					<Property Name="Scaling:Type" Type="Str">Linear</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">*1!!!"%!A!A!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 				</Item>
@@ -585,6 +563,50 @@ KeepAliveTimeout 60
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">*1!!!"%!A!A!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 				</Item>
+				<Item Name="B2G1 FS-1" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI5</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="Scaling:Coerce" Type="Str">False</Property>
+					<Property Name="Scaling:EngMax" Type="Str">100.000000</Property>
+					<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
+					<Property Name="Scaling:EngUnit" Type="Str"></Property>
+					<Property Name="Scaling:RawMax" Type="Str">0.020000</Property>
+					<Property Name="Scaling:RawMin" Type="Str">0.004000</Property>
+					<Property Name="Scaling:Type" Type="Str">Linear</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">*1!!!"%!A!A!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="B2G1 FS-2" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI6</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="Scaling:Coerce" Type="Str">True</Property>
+					<Property Name="Scaling:EngMax" Type="Str">100.000000</Property>
+					<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
+					<Property Name="Scaling:EngUnit" Type="Str">%</Property>
+					<Property Name="Scaling:RawMax" Type="Str">0.020000</Property>
+					<Property Name="Scaling:RawMin" Type="Str">0.004000</Property>
+					<Property Name="Scaling:Type" Type="Str">Linear</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">*1!!!"%!A!A!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
 				<Item Name="B2G1 FS-3" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
@@ -597,7 +619,7 @@ KeepAliveTimeout 60
 					<Property Name="Network:UseBinding" Type="Str">False</Property>
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="Scaling:Coerce" Type="Str">True</Property>
+					<Property Name="Scaling:Coerce" Type="Str">False</Property>
 					<Property Name="Scaling:EngMax" Type="Str">100.000000</Property>
 					<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
 					<Property Name="Scaling:EngUnit" Type="Str">%</Property>
@@ -623,7 +645,7 @@ KeepAliveTimeout 60
 					<Property Name="typeDesc" Type="Bin">*1!!!"%!A!A!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="B2G1 TS-4" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
 					<Property Name="Industrial:EnableTimestamp" Type="Str">True</Property>
@@ -634,6 +656,13 @@ KeepAliveTimeout 60
 					<Property Name="Network:UseBinding" Type="Str">False</Property>
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="Scaling:Coerce" Type="Str">False</Property>
+					<Property Name="Scaling:EngMax" Type="Str">50.000000</Property>
+					<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
+					<Property Name="Scaling:EngUnit" Type="Str">°C</Property>
+					<Property Name="Scaling:RawMax" Type="Str">0.020000</Property>
+					<Property Name="Scaling:RawMin" Type="Str">0.004000</Property>
+					<Property Name="Scaling:Type" Type="Str">Linear</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">*1!!!"%!A!A!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 				</Item>
@@ -1403,6 +1432,21 @@ KeepAliveTimeout 60
 				<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
 				<Property Name="cRIOModule.DisableArbitration" Type="Str">false</Property>
 				<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
+				<Item Name="B2G1 HS-1" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">10</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">DO10</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+				</Item>
 				<Item Name="B2G1 P-4" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
@@ -1607,21 +1651,6 @@ KeepAliveTimeout 60
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
 					<Property Name="Industrial:PhysicalName" Type="Str">DO9</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="Path" Type="Str">/B2G.lvproj/RT CompactRIO Target/Chassis/DO1/</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"%!A!A!!!!"!!1!)1!"!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="DO10" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">10</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">DO10</Property>
 					<Property Name="Network:UseBinding" Type="Str">False</Property>
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -1991,7 +2020,6 @@ KeepAliveTimeout 60
 		<Item Name="variables - network - RT (separate).lvlib" Type="Library" URL="../variables - network - RT (separate).lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="FB Overlay DBL.ctl" Type="VI" URL="/&lt;vilib&gt;/functionblocks/FB Property/FB Overlay DBL.ctl"/>
 			</Item>
 			<Item Name="Input - Cluster.ctl" Type="VI" URL="../Input - Cluster.ctl"/>
