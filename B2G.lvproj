@@ -40,7 +40,7 @@
 	<Property Name="varPersistentID:{321A8856-B8A4-4268-8649-0D028EEE3C5D}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/DO5</Property>
 	<Property Name="varPersistentID:{324A2F75-AE42-4240-9148-F6BF4317B3B0}" Type="Ref">/RT CompactRIO Target/Chassis/AII1/B2G1 DFS-1</Property>
 	<Property Name="varPersistentID:{3356EDA1-C6D4-4B3E-B04F-76337D7A11D1}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Füllstandsregelung 1/auto? (T)</Property>
-	<Property Name="varPersistentID:{33DB51A0-1783-4F37-B566-CAE1D2037426}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/DO1</Property>
+	<Property Name="varPersistentID:{33DB51A0-1783-4F37-B566-CAE1D2037426}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/B2G1 P-5</Property>
 	<Property Name="varPersistentID:{3644EAB7-5F04-4E16-8E7C-37F3E9D80029}" Type="Ref">/RT CompactRIO Target/Chassis/DI1/DI12</Property>
 	<Property Name="varPersistentID:{3749E162-2D1D-4025-A9A7-175198B03391}" Type="Ref">/RT CompactRIO Target/Chassis/DO1/DO21</Property>
 	<Property Name="varPersistentID:{37FD839D-66A9-478F-B953-5BA1D20E8B42}" Type="Ref">/RT CompactRIO Target/target - multi rate - variables - fileIO.vi/Füllstandsregelung/error in</Property>
@@ -244,6 +244,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -1462,6 +1463,21 @@ KeepAliveTimeout 60
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
+				<Item Name="B2G1 P-5" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">DO1</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+				</Item>
 				<Item Name="B2G1 V-10" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
@@ -1515,21 +1531,6 @@ KeepAliveTimeout 60
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
 					<Property Name="Industrial:PhysicalName" Type="Str">DO15</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="Path" Type="Str">/B2G.lvproj/RT CompactRIO Target/Chassis/DO1/</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"%!A!A!!!!"!!1!)1!"!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="DO1" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">DO1</Property>
 					<Property Name="Network:UseBinding" Type="Str">False</Property>
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
