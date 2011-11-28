@@ -223,6 +223,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="host - network - RT (separate).vi" Type="VI" URL="../host - network - RT (separate).vi"/>
 		<Item Name="variables - network - RT (separate).lvlib" Type="Library" URL="../variables - network - RT (separate).lvlib"/>
+		<Item Name="output-cluster-data-to-file.vi" Type="VI" URL="../output-cluster-data-to-file.vi"/>
+		<Item Name="cluster-head-to-file.vi" Type="VI" URL="../cluster-head-to-file.vi"/>
+		<Item Name="input-cluster-data-to-file.vi" Type="VI" URL="../input-cluster-data-to-file.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="Output - Cluster.ctl" Type="VI" URL="../Output - Cluster.ctl"/>
 			<Item Name="Input - Cluster.ctl" Type="VI" URL="../Input - Cluster.ctl"/>
@@ -244,7 +247,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -2022,9 +2024,14 @@ KeepAliveTimeout 60
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FB Overlay DBL.ctl" Type="VI" URL="/&lt;vilib&gt;/functionblocks/FB Property/FB Overlay DBL.ctl"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
+			<Item Name="cluster-head-to-file.vi" Type="VI" URL="../cluster-head-to-file.vi"/>
 			<Item Name="Input - Cluster.ctl" Type="VI" URL="../Input - Cluster.ctl"/>
+			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
 			<Item Name="Output - Cluster.ctl" Type="VI" URL="../Output - Cluster.ctl"/>
+			<Item Name="output-cluster-data-to-file.vi" Type="VI" URL="../output-cluster-data-to-file.vi"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
