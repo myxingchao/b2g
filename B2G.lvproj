@@ -247,6 +247,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -633,7 +634,7 @@ KeepAliveTimeout 60
 					<Property Name="typeDesc" Type="Bin">*1!!!"%!A!A!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="B2G1 pHS-1" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
 					<Property Name="Industrial:EnableTimestamp" Type="Str">True</Property>
@@ -644,6 +645,13 @@ KeepAliveTimeout 60
 					<Property Name="Network:UseBinding" Type="Str">False</Property>
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="Scaling:Coerce" Type="Str">False</Property>
+					<Property Name="Scaling:EngMax" Type="Str">12.000000</Property>
+					<Property Name="Scaling:EngMin" Type="Str">2.000000</Property>
+					<Property Name="Scaling:EngUnit" Type="Str">pH</Property>
+					<Property Name="Scaling:RawMax" Type="Str">0.020000</Property>
+					<Property Name="Scaling:RawMin" Type="Str">0.004000</Property>
+					<Property Name="Scaling:Type" Type="Str">Linear</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">*1!!!"%!A!A!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 				</Item>
