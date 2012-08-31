@@ -1,6 +1,12 @@
+[cRIO b2g1]
+cRIO b2g1 = "10.27.40.24"
+
+[cRIO b2g2]
+cRIO b2g2 = "10.27.40.25"
+
+[cRIO gas]
+cRIO gas = "10.27.40.21"
+
 [My Computer]
 My Computer = "10.27.40.20"
-
-[RT CompactRIO Target]
-RT CompactRIO Target = "10.27.40.21"
 
