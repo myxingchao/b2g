@@ -1,0 +1,35 @@
+[_sql_query]
+callConv = 102
+name = sql_query
+paramSize = 12
+
+[_sql_select]
+callConv = 102
+name = sql_select
+paramSize = 20
+
+[_sqlite3_close]
+callConv = 102
+name = sqlite3_close
+paramSize = 4
+
+[_sqlite3_finalize]
+callConv = 102
+name = sqlite3_finalize
+paramSize = 4
+
+[_sqlite3_open]
+callConv = 102
+name = sqlite3_open
+paramSize = 8
+
+[_sqlite3_prepare]
+callConv = 102
+name = sqlite3_prepare
+paramSize = 20
+
+[_sqlite3_step]
+callConv = 102
+name = sqlite3_step
+paramSize = 4
+

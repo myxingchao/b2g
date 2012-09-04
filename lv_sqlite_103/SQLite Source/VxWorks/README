@@ -1,0 +1,186 @@
+SQLite for LabView and CompactRIO RT Targets
+
+Documentation:
+
+-------------------------------------------------------------------------------
+
+SECTION 1: OVERVIEW
+1.1 - Introduction
+1.2 - Included Components
+1.3 - SQLite3
+1.4 - sqlitewrapper
+1.5 - Limitations
+
+SECTION 2: INSTALLATION
+
+SECTION 3: USING INCLUDED VI's
+3.1 - sql_query
+3.2 - sql_select
+
+SECTION 4: (RE)COMPILATION FROM SOURCE WITH NI GCC COMPILER
+
+-------------------------------------------------------------------------------
+
+
+*******************************************************************************
+SECTION 1: OVERVIEW
+*******************************************************************************
+
+1.1 - Introduction
+
+SQLite is a free, self-contained, serverless, zero-configurational, 
+transactional SQL database engine. SQLite source is public domain and can be
+obtained at http://sqlite.org.  The libraries included in this package are 
+intended to be used with and called from National Instruments LabView virtual
+instrumentation platform.  Libraries are included both for a Windows platform
+(DLL) and CompactRIO (.out).  
+
+1.2 - Included Components
+
+This package includes various components needed to run SQLite libraries on 
+National Instruments hardware.  This implementation of SQLite uses the main 
+SQLite library combined with a "wrapper" library which calls the main SQLite
+library.  The primary aim of this implementation is to avoid database handle
+issues by making all calls to the shared library in a single memory space.  
+While more efficient implemenations are no doubt possible, the simplicity of
+this implementation, along with its ability to meet the performance needs of 
+most database applications, makes it an acceptable choice for many projects.
+
+In addition to .DLL and .out files for Windows and VxWorks implementations, 
+simple VI's are included which implementthe functions from the sqlitewrapper 
+shared library, simplifying their introduction into projects.
+
+1.3 - SQLite3
+
+SQLite3 is the included main library for SQLite, and is required for any SQLite
+functionality.  Documentation for using SQLite and its component functions can 
+be found at http://sqlite.org/docs.html.  Unless performance is a serious 
+constraint, it is recommended that you use the included SQLitewrapper and VI's
+which call it.  Direct LabView calls to the SQLite3 library are not supported
+or recommended.
+
+1.4 - SQLitewrapper
+
+SQLitewrapper is a simple wrapper library which calls functions within SQLite's
+main library using a simplified interface.  It is intended to both simplify 
+the implementation SQL queries in LabView, as well as to simplify the use of 
+database handles in user VI's.  Due to the way SQLitewrapper is implemented, 
+the database is opened and closed for every query that is executed.  While this
+implementation is inherently inefficent for large numbers of frequent queries, 
+the performance reduction is not judged to be significant for a large number of
+applications.
+
+1.5 - Limitations
+
+The Windows DLL included has no limitations with regard to SQLite 
+functionality.  In order to compile SQLite for VxWorks, however, it is 
+necessary to remove SQLite's mutex functionality.  Programmers should take care
+to not allow the database to be accessed simulteneously by the same thread. 
+
+In addition, the VxWorks implementation of SQLite has been compiled without the
+threadsafe flags enabled.  Developers should also take care that multiple 
+threads do not access the database at the same time.
+
+*******************************************************************************
+SECTION 2: INSTALLATION
+*******************************************************************************
+
+In order to use the included VI's and libraries within LabView, it is helpful 
+to have a basic understanding of accessing shared libraries from Labview. A 
+general guide can be found at http://zone.ni.com/devzone/cda/tut/p/id/3009 on 
+the National Instruments website. 
+
+To use the supplied libraries on a CompactRIO target, the .out files included
+with this package must first be copied to the ni-rt/system folder.  In 
+addition,the ni-rt.ini file should be edited so that the line 
+"sqlitewrapper.out=sqlite3.out;" (without quotes) appears in the DEPENDENCIES 
+section.  This is essential for deployment of SQLitewrapper on VxWorks.
+
+The VIs included with this project can be added to other LabView VI's.  When 
+Loading the SQLite VI's for the first time, you may be prompted to change the
+path pointing to the .DLL and .out files.  Accept the new paths to the 
+libraries, and the VI's will continue to load.
+
+*******************************************************************************
+SECTION 3: USING INCLUDED VI'S
+*******************************************************************************
+
+3.1 - sql_query
+
+The included sql_query VI is intended to perform all SQL related queries which 
+do not return data.  In practice, this essentially means all non-SELECT 
+queries, though SELECT statements which return a single value could be used.
+CREATE TABLE, UPDATE, and INSERT statements are examples of statements that can
+be used with the sql_query VI.  The VI takes the database name and query string
+as inputs, and returns an error code and result string as outputs.
+
+3.2 - sql_select
+
+SELECT statements which return multiple arrays of data should invoke the 
+sql_select VI. This VI accepts the database filename and query string as 
+inputs, and returns a result string, along with the number of rows and columns
+in the result string.  The result string is formatted with each value separated
+by a | delimiter.  Before the actual data values, the result string includes 
+the column names.  Note that extremely large queries may be slow, owing to the
+large amount of string processing required to form the result string.
+
+3.3 - Error Codes
+
+For both sql_query and sql_select, a result code is returned which may help
+in debugging unexpected behavior.  The result codes are as follows:
+
+0 - Query executed correctly.
+1 - Problem while executing the query.
+10 - Problem closing the DB file.
+11 - Problem opening the DB file.
+
+*******************************************************************************
+SECTION 4: (RE)COMPILATION FROM SOURCE
+*******************************************************************************
+
+The libraries distributed with this package were compiled on 16 October 2008 
+using version 3.6.3 of the SQLite source.  Compilation of SQLite Libraries for 
+Windows is relatively straightforward, and can be accomplished using a variety
+of compilers.  Compilation of the Windows DLL distributed in this project 
+was accomplished using Microsoft Visual Studio 2008 C++ Express Edition, which
+is available for free download from http://www.microsoft.com.  When compiling
+a Windows DLL for use in Labview, it may be useful to view the National 
+Instruments tutorial for building DLL files in Visual Studio, located on the
+National Instruments website at http://zone.ni.com/devzone/cda/tut/p/id/3056.
+This tutorial includes important information and step-by-step instructions for
+building DLL files which can be used in Labview.  Building the SQLite DLL file 
+is relatively straight forward, with no complications.
+
+In order to rebuild the SQLite.out files for deployment to the VxWorks platform 
+used by CompactRIO controllers, it is first necessary to download the GCC 
+redistributable toolkit, available at on National Instruments website at
+http://zone.ni.com/devzone/cda/tut/p/id/5694.  This tutorial also contains 
+useful information regarding building using shared libraries for the VxWorks 
+platform.  
+
+After installing the compiler as recommended by the tutorial, an appropriate 
+makefile will need to be generated.  The makefile used for building the 
+libraries contained in this package is distributed along with the package, and 
+may be used to build the package.  In the event that a new makefile is 
+constructed, various compile options will need to be changed in order for 
+SQLite to successfully compile on the VxWorks platform.  These compile flags 
+can be viewed in line 51 of the makefile distributed with this package.
+
+In addition to compile flag changes, line 24653 (of the SQLite 3.6.4 source) 
+must be changed to reflect the different number of parameters in the VxWorks
+open() function.  In the SQLite source, only 2 paramaters are given, where
+the VxWorks function requires 3.  This line should be chaned from:
+
+fd = open("/dev/urandom", O_RDONLY);
+
+to
+
+fd = open("/dev/urandom", O_RDONLY, NULL);
+
+After saving these changes and running the setup file included with the GCC
+redistributable package, simply type "make" at the command line, and SQLite 
+should build correctly.  The resultant file will be in the PPC603gnu directory,
+and will be listed as sqlite3.out.
+
+
+

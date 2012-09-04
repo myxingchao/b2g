@@ -4,6 +4,7 @@
 	<Property Name="varPersistentID:{00D88C2E-56EF-4FF6-A1E9-3B3D039BC1E7}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI24</Property>
 	<Property Name="varPersistentID:{0239EBA5-BC17-4302-BBDC-B77C84EFC1FA}" Type="Ref">/cRIO b2g1/vi/ReadIOValues b2g1.vi/GZ-1 Volume/reset</Property>
 	<Property Name="varPersistentID:{02443271-2252-4AFE-9027-415779529F48}" Type="Ref">/cRIO b2g1/vi/ReadIOValues b2g1.vi/DFS-1 Volume/preset value</Property>
+	<Property Name="varPersistentID:{025F04D9-07CC-48CF-AD92-6115EF67AF1B}" Type="Ref">/cRIO gas/Chassis/AI1/AI7</Property>
 	<Property Name="varPersistentID:{028C5DCA-3A57-4F77-9584-FFBF868336FF}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO27</Property>
 	<Property Name="varPersistentID:{028D683E-5D76-4F89-9CD0-7D873B5CB5AB}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI26</Property>
 	<Property Name="varPersistentID:{02DA5E82-7794-45C1-BC4C-2AE9E5DE8DF4}" Type="Ref">/cRIO gas/variables - gas.lvlib/stop - network gas</Property>
@@ -13,20 +14,20 @@
 	<Property Name="varPersistentID:{06676D80-3F08-407B-9280-12E466D3DC31}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO8</Property>
 	<Property Name="varPersistentID:{0710AE94-1CA9-4377-BCC4-DC28F80E9D4E}" Type="Ref">/cRIO b2g1/Chassis/AII1/AI13</Property>
 	<Property Name="varPersistentID:{07CBE86F-6881-4ADF-956D-A365D3A02D2B}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO30</Property>
-	<Property Name="varPersistentID:{082CF677-FCFB-4E42-B9C9-DEC7FA10B209}" Type="Ref">/cRIO gas/Chassis/AI/AI12</Property>
 	<Property Name="varPersistentID:{084EAB9A-E736-4231-8960-6ADFCBA2D6F4}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO14</Property>
 	<Property Name="varPersistentID:{08ED4852-3E0D-4C70-A5C5-903B53263D28}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 DFS1</Property>
 	<Property Name="varPersistentID:{0AD9BC3C-F272-4709-90F5-035DE62A8F9C}" Type="Ref">/cRIO b2g1/Chassis/AII1/B2G1 TS5</Property>
 	<Property Name="varPersistentID:{0B718E6D-8C59-4563-A343-D4AEE27B7AA9}" Type="Ref">/cRIO b2g2/Chassis/AOU1/B2G2 V13</Property>
-	<Property Name="varPersistentID:{0B878E1D-6B97-4CB4-A678-819955C4BD79}" Type="Ref">/cRIO gas/Chassis/AI/AI4</Property>
 	<Property Name="varPersistentID:{0C864462-1261-4848-B38D-C34B02331058}" Type="Ref">/cRIO gas/Chassis/DI1/DI11</Property>
 	<Property Name="varPersistentID:{0CC78D16-D740-49F8-B194-33C427AAE26F}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/error out</Property>
 	<Property Name="varPersistentID:{0DEC5206-0212-4811-98EB-78F515E5ECBC}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 V14 0</Property>
 	<Property Name="varPersistentID:{0E63646B-618D-4B6A-B818-4A2115D2110E}" Type="Ref">/cRIO gas/Chassis/DI2/GA V-2 0</Property>
+	<Property Name="varPersistentID:{0EA61140-0A07-4A06-8209-C115B284A6DF}" Type="Ref">/cRIO gas/Chassis/AI1/GM GA-1 co2</Property>
 	<Property Name="varPersistentID:{0F855B33-774E-4FEF-8300-3B338ADB1640}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO28</Property>
 	<Property Name="varPersistentID:{10580A10-6713-44A2-A4B5-704489F715DC}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/setpoint low</Property>
 	<Property Name="varPersistentID:{11C1B910-4CC5-4101-9E2B-240A2039D771}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI24</Property>
 	<Property Name="varPersistentID:{11CA62BA-6D71-4C9F-92C5-B5CAD4F73B4E}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/linearity</Property>
+	<Property Name="varPersistentID:{1246ABA8-0783-49D0-B9F9-1FB1F5A8C32D}" Type="Ref">/cRIO gas/Chassis/AI1/AI1</Property>
 	<Property Name="varPersistentID:{159D1865-96EB-47EE-BA04-6D03EC6C49B7}" Type="Ref">/cRIO gas/Chassis/DO/DO14</Property>
 	<Property Name="varPersistentID:{15A8917A-53CF-4523-B5CB-EDBC30D6783A}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO21</Property>
 	<Property Name="varPersistentID:{173C4294-50E9-4434-A2D1-701DEDA4563B}" Type="Ref">/cRIO gas/Chassis/DO/DO21</Property>
@@ -38,11 +39,11 @@
 	<Property Name="varPersistentID:{192E55AC-CF3A-4C3F-8B31-8127B07E0DC2}" Type="Ref">/cRIO b2g2/Chassis/AII1/B2G2 FS3</Property>
 	<Property Name="varPersistentID:{1A418CF5-CE49-48B7-87CA-1E63FB0B98DE}" Type="Ref">/cRIO b2g2/Chassis/DO1/B2G2 V33</Property>
 	<Property Name="varPersistentID:{1A776AFC-4233-4393-9953-F6FBF9E53FB5}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI28</Property>
-	<Property Name="varPersistentID:{1ACBBCFE-6FB4-4EAC-A9CF-A9DC053D1F41}" Type="Ref">/cRIO gas/Chassis/AI/AI15</Property>
 	<Property Name="varPersistentID:{1B31E6D4-0B88-444D-9F5F-58BA8C6466C5}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/derivative time (Td, min)</Property>
 	<Property Name="varPersistentID:{1B4B68B4-AB69-4112-8741-C91825157E19}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO18</Property>
 	<Property Name="varPersistentID:{1B5FCED3-E9B7-40D7-A3D6-17F4F90A4684}" Type="Ref">/cRIO gas/Chassis/DI1/DI23</Property>
 	<Property Name="varPersistentID:{1BD250F3-612A-4060-ACF8-A2D3F9508C4D}" Type="Ref">/cRIO gas/Chassis/DI2/DI1</Property>
+	<Property Name="varPersistentID:{1CE78700-531B-4A24-8C39-CECA8917B7EC}" Type="Ref">/cRIO gas/Chassis/AI1/GM GA-1 ch4</Property>
 	<Property Name="varPersistentID:{1F491775-B7E9-4322-B647-48DBC022E2A2}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI20</Property>
 	<Property Name="varPersistentID:{1F859DF9-4074-447B-9E85-874B30C6F5F1}" Type="Ref">/cRIO b2g1/vi/ReadIOValues b2g1.vi/GZ-1 Volume/done</Property>
 	<Property Name="varPersistentID:{1F8E37DA-7C8D-4391-8B48-1A3C1ABC5F3E}" Type="Ref">/cRIO b2g1/Chassis/AOU1/AO11</Property>
@@ -53,6 +54,7 @@
 	<Property Name="varPersistentID:{21B61A6B-8E4B-458E-91B5-D6875B0DE4D4}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO6</Property>
 	<Property Name="varPersistentID:{2232FC05-FE55-4027-86B3-5756876F10E1}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/setpoint high</Property>
 	<Property Name="varPersistentID:{22FA3FB2-FD19-47FA-A01B-3DD25C5C9533}" Type="Ref">/cRIO b2g2/Chassis/AOU1/B2G2 P4 speed</Property>
+	<Property Name="varPersistentID:{2313B143-1FBA-49B5-8145-5DA977AFA69E}" Type="Ref">/cRIO gas/Chassis/AI1/AI10</Property>
 	<Property Name="varPersistentID:{2363AD2A-57C3-43DD-A461-4F2DCAA23AD8}" Type="Ref">/cRIO gas/variables - gas.lvlib/data - RT gas</Property>
 	<Property Name="varPersistentID:{23F1A839-7C71-4DAF-9189-DDEC39299E15}" Type="Ref">/cRIO b2g2/Chassis/AII1/B2G2 DS1</Property>
 	<Property Name="varPersistentID:{245E9D34-7D49-4CF3-9ADF-D343F8A5B9F8}" Type="Ref">/cRIO gas/Chassis/DI2/Fab2 HR V1.1 0</Property>
@@ -91,10 +93,8 @@
 	<Property Name="varPersistentID:{3C5E4AD7-1416-470B-9541-96FD03DFAD48}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI28</Property>
 	<Property Name="varPersistentID:{3C9B0EB7-C0A3-45E7-804A-12C148F31C6F}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V14 1</Property>
 	<Property Name="varPersistentID:{3D44E330-3C79-45DF-A872-38929C534916}" Type="Ref">/cRIO gas/Chassis/DI1/DI13</Property>
-	<Property Name="varPersistentID:{3D4FC987-726F-48B9-9332-73878410BDA3}" Type="Ref">/cRIO gas/Chassis/AI/AI1</Property>
 	<Property Name="varPersistentID:{3DBF0D23-7646-4AC9-A291-4D8CA72DF8F9}" Type="Ref">/cRIO b2g1/vi/ReadIOValues b2g1.vi/GZ-1 Volume/error in</Property>
 	<Property Name="varPersistentID:{3DEC28CD-F1E9-41D3-9DEB-D8E1EE6638B8}" Type="Ref">/cRIO b2g2/variables - b2g2.lvlib/stop - network b2g2</Property>
-	<Property Name="varPersistentID:{3E2D7D13-B30E-4832-9B11-2A0858C1D4D3}" Type="Ref">/cRIO gas/Chassis/AI/AI2</Property>
 	<Property Name="varPersistentID:{3EE38296-7D38-47F2-A568-9F2A58C566CE}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO15</Property>
 	<Property Name="varPersistentID:{3F502225-927D-4EFF-BB31-5150EEEF1F24}" Type="Ref">/cRIO gas/Chassis/DO/DO17</Property>
 	<Property Name="varPersistentID:{410DAFE9-9AB8-4DF6-85BC-36073E18D1CC}" Type="Ref">/cRIO gas/Chassis/DI2/GA V-3 1</Property>
@@ -108,6 +108,7 @@
 	<Property Name="varPersistentID:{457AD0A0-2A88-4B7C-91E4-339824105EC6}" Type="Ref">/cRIO gas/Chassis/DO/DO27</Property>
 	<Property Name="varPersistentID:{467E7C70-EAF3-4FE0-AA3D-B15C491DCE73}" Type="Ref">/cRIO gas/Chassis/DI2/Fab1 MR V1.1 0</Property>
 	<Property Name="varPersistentID:{46A6C886-D33A-420B-9329-368AA86FFE6A}" Type="Ref">/cRIO gas/Chassis/DI1/DI7</Property>
+	<Property Name="varPersistentID:{4708E5D1-DE4F-40F3-9D3E-3F8F03FAF28B}" Type="Ref">/cRIO gas/Chassis/AI1/GM GA-1 h2</Property>
 	<Property Name="varPersistentID:{48373199-5D98-44FE-8831-45FC192226D0}" Type="Ref">/cRIO gas/Chassis/DI1/DI3</Property>
 	<Property Name="varPersistentID:{48C1D717-E84D-43BC-9939-42595FD9974C}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/process variable</Property>
 	<Property Name="varPersistentID:{4958C45E-A16A-46C7-83E3-EE2BA63C1572}" Type="Ref">/cRIO b2g1/Chassis/AOU1/AO15</Property>
@@ -129,7 +130,7 @@
 	<Property Name="varPersistentID:{52274BAF-55FE-44DC-96FC-D0BD6E8A3204}" Type="Ref">/cRIO b2g2/Chassis/DO1/B2G1 P9</Property>
 	<Property Name="varPersistentID:{522AAB2F-454E-4BCF-9F95-CBD541A01DF6}" Type="Ref">/cRIO b2g1/Chassis/AOU1/AO5</Property>
 	<Property Name="varPersistentID:{5281C07F-888D-4CE5-9CDA-6A052FB05A48}" Type="Ref">/cRIO b2g2/vi/ReadIOValues b2g2.vi/DFS-1 Volume/count up</Property>
-	<Property Name="varPersistentID:{536236D2-BE4C-472C-9E88-CA561E66A34E}" Type="Ref">/cRIO gas/Chassis/AI/AI14</Property>
+	<Property Name="varPersistentID:{53166A81-DDFD-488E-AD61-DEA85D715738}" Type="Ref">/cRIO gas/Chassis/AI1/AI3</Property>
 	<Property Name="varPersistentID:{5364114A-5A1B-43ED-ADCA-201F06B05E95}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/auto? (T)</Property>
 	<Property Name="varPersistentID:{53DF2941-2A07-4DF1-AD8D-A8479D7BDF2D}" Type="Ref">/cRIO gas/Chassis/DI2/Fab2 HR V1.1 1</Property>
 	<Property Name="varPersistentID:{5454308D-EE3E-432D-B780-DC66D99A24A7}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/output high</Property>
@@ -141,14 +142,13 @@
 	<Property Name="varPersistentID:{577CFA27-5286-4C14-885A-79240755F41F}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO26</Property>
 	<Property Name="varPersistentID:{57A77ECB-18AD-42EF-89C4-0C1FD0623E04}" Type="Ref">/cRIO gas/Chassis/DI2/B2G2 T2 V1.1 1</Property>
 	<Property Name="varPersistentID:{581B9FB7-BE6C-4C33-9A87-E80C10CBFD23}" Type="Ref">/cRIO gas/Chassis/DI1/DI25</Property>
-	<Property Name="varPersistentID:{5902FD6A-B521-4DBB-93C1-BAEA25777B4C}" Type="Ref">/cRIO gas/Chassis/AI/AI10</Property>
 	<Property Name="varPersistentID:{59F55B4E-56DF-43AC-8CEF-A23B1EBA9806}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO7</Property>
 	<Property Name="varPersistentID:{5A198364-9C3A-4520-BBEE-2F0C34400812}" Type="Ref">/cRIO b2g2/vi/ReadIOValues b2g2.vi/DFS-1 Volume/error in</Property>
 	<Property Name="varPersistentID:{5AD0D24B-7F8F-4E7C-952A-483507232B61}" Type="Ref">/cRIO b2g2/vi/ReadIOValues b2g2.vi/DFS-1 Volume/preset value</Property>
 	<Property Name="varPersistentID:{5B5EC44A-CC26-455E-A397-B2D44845E788}" Type="Ref">/cRIO gas/Chassis/DI2/GA V-1 1</Property>
 	<Property Name="varPersistentID:{5BF13C0E-9574-4ABB-A531-622DB2C8F440}" Type="Ref">/cRIO b2g1/vi/ReadIOValues b2g1.vi/DFS-1 Volume/counter value</Property>
+	<Property Name="varPersistentID:{5C5DE182-1A9D-4FD1-AB4F-80A4A27552CE}" Type="Ref">/cRIO gas/Chassis/AI1/AI11</Property>
 	<Property Name="varPersistentID:{5D96470C-5923-4695-9B88-012BC54736B0}" Type="Ref">/cRIO b2g1/Chassis/DI1/GZ-1 Impulse</Property>
-	<Property Name="varPersistentID:{5E3166FB-67F6-4A5C-8A50-DD680E9F70B0}" Type="Ref">/cRIO gas/Chassis/AI/AI3</Property>
 	<Property Name="varPersistentID:{5E65C519-1FF0-4D0A-AF22-55434130074A}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V33 0</Property>
 	<Property Name="varPersistentID:{5E79649C-20B0-4763-96BD-EEC4BE623899}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI21</Property>
 	<Property Name="varPersistentID:{5FD749A1-0E6E-4093-A81D-FC03928F1D21}" Type="Ref">/cRIO b2g1/Chassis/AOU1/B2G1 V-13</Property>
@@ -157,7 +157,6 @@
 	<Property Name="varPersistentID:{61A5E5B8-ACDC-4BE3-AD1C-335B77A2F6CD}" Type="Ref">/cRIO gas/Chassis/DI1/DI2</Property>
 	<Property Name="varPersistentID:{630A670D-7DF5-4730-A815-F77C35CACCA0}" Type="Ref">/cRIO gas/Chassis/DO/DO1</Property>
 	<Property Name="varPersistentID:{65891DEC-1AC7-4858-9ED6-DF9CBE47F03D}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/output</Property>
-	<Property Name="varPersistentID:{65D6E729-DBE3-4BF9-BADC-479B0ABB0E74}" Type="Ref">/cRIO gas/Chassis/AI/AI7</Property>
 	<Property Name="varPersistentID:{65DD96F2-507E-4CD5-8221-54DC7A57C13C}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI13</Property>
 	<Property Name="varPersistentID:{668EC57E-E45D-4E34-9B78-0AB0A7CFE698}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI23</Property>
 	<Property Name="varPersistentID:{6783D1B1-AD02-4517-8192-B87347E64594}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI19</Property>
@@ -201,7 +200,6 @@
 	<Property Name="varPersistentID:{82344211-3A98-4C95-9D45-FA6ED964710D}" Type="Ref">/cRIO gas/Chassis/DI1/DI21</Property>
 	<Property Name="varPersistentID:{8237D795-6AF7-477F-832F-1D2E3BC8C2BD}" Type="Ref">/cRIO b2g2/Chassis/AII1/AI10</Property>
 	<Property Name="varPersistentID:{827B1F59-2DC5-47CF-8273-CA023A161974}" Type="Ref">/cRIO b2g2/Chassis/AII1/AI15</Property>
-	<Property Name="varPersistentID:{82BE1A1A-18D4-4806-9BE4-AD128B3462AA}" Type="Ref">/cRIO gas/Chassis/AI/AI9</Property>
 	<Property Name="varPersistentID:{82FD57D3-DAF9-4A23-A593-22DCBEF352CC}" Type="Ref">/cRIO gas/Chassis/DI2/B2G1 MR V1.1 1</Property>
 	<Property Name="varPersistentID:{83653778-3ED8-49F7-A05D-59D06A391B09}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI27</Property>
 	<Property Name="varPersistentID:{84D6DF55-D712-4E87-9228-80C631814E28}" Type="Ref">/cRIO gas/Chassis/DO/DO4</Property>
@@ -213,13 +211,13 @@
 	<Property Name="varPersistentID:{86EDB8CD-BFBA-4A58-908D-A3DCA21ACFC8}" Type="Ref">/cRIO gas/Chassis/DI2/Fab2 MR V1.1 0</Property>
 	<Property Name="varPersistentID:{879BB8E4-3E37-4AB1-8F05-055C239B4363}" Type="Ref">/cRIO gas/Chassis/DI1/DI24</Property>
 	<Property Name="varPersistentID:{87A77348-7199-46B0-BFAA-B0C91D963AF5}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI27</Property>
+	<Property Name="varPersistentID:{87C3F831-BDC7-4B47-98BC-E8F9D2F4DBB4}" Type="Ref">/cRIO gas/Chassis/AI1/AI6</Property>
 	<Property Name="varPersistentID:{88936F05-324D-4E86-8764-951447F654CB}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 V33 1</Property>
 	<Property Name="varPersistentID:{88945F23-E9D2-445F-B1AB-231099BF99C6}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI29</Property>
 	<Property Name="varPersistentID:{889EE3C9-D267-4925-89BB-5FD8AC4A34F2}" Type="Ref">/cRIO b2g2/Chassis/DO1/B2G2 P4</Property>
 	<Property Name="varPersistentID:{88C28F8A-DBBF-46C3-9C37-4438C0843C51}" Type="Ref">/cRIO gas/Chassis/DO/DO0</Property>
 	<Property Name="varPersistentID:{8BCB113B-6BE2-459C-999D-F82B96BBE4E1}" Type="Ref">/cRIO gas/Chassis/DI2/B2G1 HR V1.1 0</Property>
 	<Property Name="varPersistentID:{8C5E856B-52BF-4FDD-9877-BACFEC8C8AAE}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 DFS1</Property>
-	<Property Name="varPersistentID:{8CADC1FE-BF44-4A80-B8E7-565388911728}" Type="Ref">/cRIO gas/Chassis/AI/AI6</Property>
 	<Property Name="varPersistentID:{8CF63FB9-2E62-429A-A035-B7250C26B7DD}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO7</Property>
 	<Property Name="varPersistentID:{8E595080-B929-4C21-9E37-73795589E4C3}" Type="Ref">/cRIO b2g1/Chassis/AII1/AI14</Property>
 	<Property Name="varPersistentID:{900C677A-46D9-43A2-91BA-8BEC7011C9BF}" Type="Ref">/cRIO b2g2/vi/ReadIOValues b2g2.vi/DFS-1 Volume/counter value</Property>
@@ -239,7 +237,6 @@
 	<Property Name="varPersistentID:{99D6C18E-FCCE-48E2-AFF0-4B9AA9CA2F9E}" Type="Ref">/cRIO b2g1/variables - b2g1.lvlib/stop - network b2g1</Property>
 	<Property Name="varPersistentID:{99F2FE55-C4E3-4A81-89CD-F934415D1F9E}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI14</Property>
 	<Property Name="varPersistentID:{9AA034EF-891A-4875-A50E-88551F8835B4}" Type="Ref">/cRIO gas/Chassis/DO/DO29</Property>
-	<Property Name="varPersistentID:{9AD1F2BB-A8C7-49F5-A072-27FB6C5D83F7}" Type="Ref">/cRIO gas/Chassis/AI/AI0</Property>
 	<Property Name="varPersistentID:{A04831A9-A9CC-4B5F-B303-459EA9FC2A12}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V14 0</Property>
 	<Property Name="varPersistentID:{A15BB05C-E4FA-4A9C-AF07-84A629A3C596}" Type="Ref">/cRIO b2g1/Chassis/AII1/AI10</Property>
 	<Property Name="varPersistentID:{A263F9F9-423A-448D-AEAB-C1C60BCE7C57}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/output high</Property>
@@ -252,14 +249,15 @@
 	<Property Name="varPersistentID:{A864CF0C-0DE0-40B6-977A-22C4BEA83D31}" Type="Ref">/cRIO b2g1/Chassis/AII1/B2G1 pHS-1</Property>
 	<Property Name="varPersistentID:{A93E49C5-FA9C-457A-8AE4-3F90C32BA556}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI16</Property>
 	<Property Name="varPersistentID:{A9D57EA1-A23F-4326-ADFF-0A634DA760B8}" Type="Ref">/cRIO gas/Chassis/DI1/DI1</Property>
-	<Property Name="varPersistentID:{A9FDAE90-D3C7-410D-9B73-2A250B239293}" Type="Ref">/cRIO gas/Chassis/AI/AI13</Property>
 	<Property Name="varPersistentID:{AA6D6C81-2BB8-4A89-ADC1-526C86AB6F4B}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 V34 1</Property>
 	<Property Name="varPersistentID:{AA7D3280-C79D-440E-A662-D95AAC417398}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO8</Property>
 	<Property Name="varPersistentID:{ABBF28EB-FD73-42B4-8665-2C233D0D5CC5}" Type="Ref">/cRIO gas/Chassis/DI1/DI16</Property>
 	<Property Name="varPersistentID:{ABF51947-7153-4706-87BF-6F61084EDB47}" Type="Ref">/cRIO b2g1/vi/ReadIOValues b2g1.vi/DFS-1 Volume/error out</Property>
 	<Property Name="varPersistentID:{AC899BA3-AA85-4883-BFC3-ABF84E00C5AA}" Type="Ref">/cRIO b2g1/Chassis/AII1/GZ-1 DS-3</Property>
+	<Property Name="varPersistentID:{AD02FDAC-0D1E-4A73-87BA-2861AFD043F0}" Type="Ref">/cRIO gas/Chassis/AI1/AI9</Property>
 	<Property Name="varPersistentID:{ADF4E957-32EC-428C-8BDF-A178DAFA7A3C}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/output low</Property>
 	<Property Name="varPersistentID:{AE3DC54E-5796-444A-A04B-B5451374597F}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI15</Property>
+	<Property Name="varPersistentID:{AEEBDEC1-9718-469C-A24A-4EA30690E995}" Type="Ref">/cRIO gas/Chassis/AI1/AI0</Property>
 	<Property Name="varPersistentID:{AF101C34-B043-4F48-905B-08DC2F3F6101}" Type="Ref">/cRIO gas/Chassis/DO/DO3</Property>
 	<Property Name="varPersistentID:{AF7C4633-0D68-4A11-B3CF-1728649B9C8A}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO19</Property>
 	<Property Name="varPersistentID:{AF9EBAAE-8BFE-4A47-B4EC-29BE1BFE75EC}" Type="Ref">/cRIO b2g1/Chassis/DO1/B2G1 V33</Property>
@@ -277,6 +275,7 @@
 	<Property Name="varPersistentID:{B5716B50-99EC-40B7-9DE0-29E0D188BA47}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V10 1</Property>
 	<Property Name="varPersistentID:{B5AA2EA2-9219-4247-B078-263A16757E4A}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO5</Property>
 	<Property Name="varPersistentID:{B64C8530-FFCD-4910-9708-AE75A5847D2A}" Type="Ref">/cRIO gas/Chassis/DI2/B2G1 T2 V1.1 0</Property>
+	<Property Name="varPersistentID:{B7D7DC18-D3F2-4DA8-9869-2E0247FBA091}" Type="Ref">/cRIO gas/Chassis/AI1/AI2</Property>
 	<Property Name="varPersistentID:{B9E8A59E-DDB7-48F1-8095-7705FF147D63}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO11</Property>
 	<Property Name="varPersistentID:{BA42350E-5A11-446B-9292-74D9FE2ACF98}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI19</Property>
 	<Property Name="varPersistentID:{BA855ED9-54D5-4977-B791-7F5AADFE069E}" Type="Ref">/cRIO gas/Chassis/DO/DO23</Property>
@@ -288,7 +287,6 @@
 	<Property Name="varPersistentID:{BE143229-6844-4026-AA82-41113B2AEC8B}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO28</Property>
 	<Property Name="varPersistentID:{BEF10A75-5CC9-4DF2-9487-CBF6435024A0}" Type="Ref">/cRIO gas/Chassis/DI1/DI29</Property>
 	<Property Name="varPersistentID:{C060A081-41DD-46EB-A692-BB066293C83C}" Type="Ref">/cRIO b2g2/Chassis/DO1/B2G2 V14</Property>
-	<Property Name="varPersistentID:{C094EDE9-3F32-4259-8AD4-A13A1E6EE1B0}" Type="Ref">/cRIO gas/Chassis/AI/AI8</Property>
 	<Property Name="varPersistentID:{C0B9FF05-8A20-44DC-B749-CF8DAE31B009}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 P-5 Err</Property>
 	<Property Name="varPersistentID:{C0D67D3D-BBBD-4060-AABD-74D9E5A5427B}" Type="Ref">/cRIO b2g1/vi/ReadIOValues b2g1.vi/GZ-1 Volume/error out</Property>
 	<Property Name="varPersistentID:{C13764CE-8C11-4AEF-A313-8D95165700C2}" Type="Ref">/cRIO b2g1/Chassis/AOU1/AO4</Property>
@@ -296,6 +294,7 @@
 	<Property Name="varPersistentID:{C3E7A998-E4F3-4733-B2FF-4F291275528F}" Type="Ref">/cRIO b2g1/Chassis/DO1/B2G1 V14</Property>
 	<Property Name="varPersistentID:{C403BDE2-7DBC-4F42-8F46-319885CB0F48}" Type="Ref">/cRIO gas/variables - gas.lvlib/data - network - gas</Property>
 	<Property Name="varPersistentID:{C40AFD5A-7F2C-4AA8-BFFB-556BBC7C67BB}" Type="Ref">/cRIO gas/Chassis/DI2/Fab1 HR V1.1 0</Property>
+	<Property Name="varPersistentID:{C47C43DD-28A6-4BA3-9C8C-CEBD223F0D21}" Type="Ref">/cRIO gas/Chassis/AI1/AI15</Property>
 	<Property Name="varPersistentID:{C594D603-19FF-48AC-8693-D31D3C50BD34}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI22</Property>
 	<Property Name="varPersistentID:{C7AA4182-DE05-4889-964B-F365FE9FD5FB}" Type="Ref">/cRIO gas/Chassis/DO/DO22</Property>
 	<Property Name="varPersistentID:{C7E0CC46-39C6-44AF-BEA6-C5D09117F08B}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/proportional gain (Kc)</Property>
@@ -329,6 +328,7 @@
 	<Property Name="varPersistentID:{DBFF6972-1923-4F15-8FEE-C6F94CD02CEC}" Type="Ref">/cRIO gas/Chassis/DI1/DI27</Property>
 	<Property Name="varPersistentID:{DC99AC67-5890-4A48-95EA-7510BDDE76AA}" Type="Ref">/cRIO b2g2/vi/ReadIOValues b2g2.vi/DFS-1 Volume/error out</Property>
 	<Property Name="varPersistentID:{DD6FBAA2-D873-4EA9-BB7D-1AF54BD79BD2}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/linearity</Property>
+	<Property Name="varPersistentID:{DD77894D-3C72-4A61-B8A8-9E0C6BE0AAA2}" Type="Ref">/cRIO gas/Chassis/AI1/GM DS-2</Property>
 	<Property Name="varPersistentID:{DDA4D24B-E5D3-435F-BEB5-11141927DFD6}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO31</Property>
 	<Property Name="varPersistentID:{DE3A4B2C-999B-4D0F-8BE6-1B0128028EE5}" Type="Ref">/cRIO b2g1/Chassis/AOU1/AO12</Property>
 	<Property Name="varPersistentID:{DE5AF836-83F0-4BE9-BA0F-F6F60327098F}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI17</Property>
@@ -341,6 +341,7 @@
 	<Property Name="varPersistentID:{E361723B-0554-4DC8-A0D8-38BCF776F816}" Type="Ref">/cRIO gas/Chassis/DI1/DI26</Property>
 	<Property Name="varPersistentID:{E42497B3-62FB-4326-813E-E42A30F072AC}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V10 0</Property>
 	<Property Name="varPersistentID:{E4CF34B7-6D34-4351-8D53-E6F4763211AC}" Type="Ref">/cRIO b2g2/Chassis/AOU1/AO3</Property>
+	<Property Name="varPersistentID:{E75E228F-1452-4A45-B71D-FD0D891F4E55}" Type="Ref">/cRIO gas/Chassis/AI1/AI4</Property>
 	<Property Name="varPersistentID:{E76600D6-2B99-41AB-A604-61D541BF120A}" Type="Ref">/cRIO gas/Chassis/DO/DO2</Property>
 	<Property Name="varPersistentID:{E7D15C65-1B49-4EAF-A2FE-ED1D0B12EA19}" Type="Ref">/cRIO b2g1/variables - b2g1.lvlib/data - network - b2g1</Property>
 	<Property Name="varPersistentID:{E81EF94F-77E5-45DA-9520-B9C24FD65A6F}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI25</Property>
@@ -352,7 +353,6 @@
 	<Property Name="varPersistentID:{EFBC9D40-B5C0-4A08-B953-D3C51530A65A}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/dt out (s)</Property>
 	<Property Name="varPersistentID:{F1CD11E2-7938-4198-B5D3-2FBE0B2E4DB2}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 V34 0</Property>
 	<Property Name="varPersistentID:{F2195D03-4B1B-4289-ADE7-3EFFCEAC9760}" Type="Ref">/cRIO gas/Chassis/DI2/GA V-1 0</Property>
-	<Property Name="varPersistentID:{F2201F0C-EB59-4126-AE99-D2B61AEDE80E}" Type="Ref">/cRIO gas/Chassis/AI/AI5</Property>
 	<Property Name="varPersistentID:{F33EC5CD-B7E0-4AE0-A1E8-9AE2BA098629}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V34 0</Property>
 	<Property Name="varPersistentID:{F34F8E7E-E76E-44E4-873C-E3ACBFCCD4CB}" Type="Ref">/cRIO b2g1/variables - b2g1.lvlib/input - network b2g1</Property>
 	<Property Name="varPersistentID:{F3CFC9AE-3F71-4D9F-AD07-0F7CBD456825}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO13</Property>
@@ -362,8 +362,8 @@
 	<Property Name="varPersistentID:{F65F2B6A-F819-45B4-887C-33FEDCE552B4}" Type="Ref">/cRIO b2g1/Chassis/AII1/B2G1 DFS1</Property>
 	<Property Name="varPersistentID:{F6FE6D31-6D47-431B-8F17-0CC9C2C9E28E}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO3</Property>
 	<Property Name="varPersistentID:{F74EF0A5-5E21-4015-9F71-D129A22F86B6}" Type="Ref">/cRIO gas/Chassis/DI2/GA V-2 1</Property>
-	<Property Name="varPersistentID:{F7F1F127-DDBC-435F-B698-71C8914D95BF}" Type="Ref">/cRIO gas/Chassis/AI/AI11</Property>
 	<Property Name="varPersistentID:{F8345EC3-4CED-4F86-B5ED-384F45CA6A0D}" Type="Ref">/cRIO b2g2/variables - b2g2.lvlib/input - RT b2g2</Property>
+	<Property Name="varPersistentID:{FC38AFAC-698B-4114-ACEE-F25ABA9B2766}" Type="Ref">/cRIO gas/Chassis/AI1/AI5</Property>
 	<Property Name="varPersistentID:{FD0B856D-3326-40ED-8045-CAB83C8525DF}" Type="Ref">/cRIO gas/Chassis/DI1/DI14</Property>
 	<Property Name="varPersistentID:{FE853E9B-8D54-49D8-B734-AE16ACCF1FC1}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO12</Property>
 	<Property Name="varPersistentID:{FED443D3-93A5-4D0A-8638-8764AABDDA08}" Type="Ref">/cRIO gas/Chassis/DI1/DI31</Property>
@@ -1207,19 +1207,19 @@
 				<Property Name="Bld_buildSpecName" Type="Str">UiSchematic_gas</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/T/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen</Property>
+				<Property Name="Bld_localDestDir" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6C5A3F84-3CE3-4F7D-90F4-08C3F8D9982C}</Property>
 				<Property Name="Destination[0].destName" Type="Str">UiSchematic_gas.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/T/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/UiSchematic_gas.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/UiSchematic_gas.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/T/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/data</Property>
+				<Property Name="Destination[1].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{01A450F7-0E41-469B-8850-7D40C0D937A3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F57C432A-08C2-4CE5-AEA6-C160A055BC56}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/ui/UiSchematic_gas.vi</Property>
@@ -1252,6 +1252,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -1322,6 +1323,11 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
+		<Item Name="SQLite" Type="Folder">
+			<Item Name="SQL Get DB Schema.vi" Type="VI" URL="../lv_sqlite_103/SQL Get DB Schema.vi"/>
+			<Item Name="SQL Query.vi" Type="VI" URL="../lv_sqlite_103/SQL Query.vi"/>
+			<Item Name="SQL Select.vi" Type="VI" URL="../lv_sqlite_103/SQL Select.vi"/>
+		</Item>
 		<Item Name="vi" Type="Folder">
 			<Item Name="ReadIOValues gas.vi" Type="VI" URL="../ReadIOValues gas.vi"/>
 			<Item Name="WriteIOSafeCondition gas.vi" Type="VI" URL="../WriteIOSafeCondition gas.vi"/>
@@ -1332,272 +1338,6 @@ KeepAliveTimeout 60
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
 			<Property Name="crio.Type" Type="Str">cRIO-9114</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="AI" Type="RIO C Series Module">
-				<Property Name="crio.Calibration" Type="Str">1</Property>
-				<Property Name="crio.Location" Type="Str">Slot 1</Property>
-				<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
-				<Property Name="crio.SupportsDynamicRes" Type="Bool">false</Property>
-				<Property Name="crio.Type" Type="Str">NI 9207</Property>
-				<Property Name="cRIOModule.AI0.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI0.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI1.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI1.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI10.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI10.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI11.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI11.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI12.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI12.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI13.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI13.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI14.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI14.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI15.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI15.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI2.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI2.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI3.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI3.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI4.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI4.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI5.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI5.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI6.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI6.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI7.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI7.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI8.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI8.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI9.DegreeRange" Type="Str">2</Property>
-				<Property Name="cRIOModule.AI9.TCoupleType" Type="Str">0</Property>
-				<Property Name="cRIOModule.Conversion Time" Type="Str">1</Property>
-				<Property Name="cRIOModule.Enable Open TC Detection" Type="Str">true</Property>
-				<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
-				<Item Name="AI0" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI0</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI1" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI1</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI2" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI2</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI3" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI3</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI4" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI4</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI5" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI5</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI6" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI6</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI7" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI7</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI8" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">8</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI8</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI9" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">9</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI9</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI10" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">10</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI10</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI11" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">11</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI11</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI12" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">12</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI12</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI13" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">13</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI13</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI14" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">14</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI14</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-				<Item Name="AI15" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">15</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">AI15</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
-				</Item>
-			</Item>
 			<Item Name="DI1" Type="RIO C Series Module">
 				<Property Name="crio.Calibration" Type="Str">1</Property>
 				<Property Name="crio.Location" Type="Str">Slot 2</Property>
@@ -2998,12 +2738,349 @@ KeepAliveTimeout 60
 					<Property Name="typeDesc" Type="Bin">&amp;1!!!"%!A!A!!!!"!!1!)1!"!!!!!!!!!!</Property>
 				</Item>
 			</Item>
+			<Item Name="AI1" Type="RIO C Series Module">
+				<Property Name="crio.Calibration" Type="Str">1</Property>
+				<Property Name="crio.Location" Type="Str">Slot 1</Property>
+				<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
+				<Property Name="crio.SDcounterSlaveChannelMask" Type="Str">0</Property>
+				<Property Name="crio.SDCounterSlaveMasterSlot" Type="Str">0</Property>
+				<Property Name="crio.SDInputFilter" Type="Str">128</Property>
+				<Property Name="crio.SupportsDynamicRes" Type="Bool">false</Property>
+				<Property Name="crio.Type" Type="Str">NI 9207</Property>
+				<Property Name="cRIOModule.AI0.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI0.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI1.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI1.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI10.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI10.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI11.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI11.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI12.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI12.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI13.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI13.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI14.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI14.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI15.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI15.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI2.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI2.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI3.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI3.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI4.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI4.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI5.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI5.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI6.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI6.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI7.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI7.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI8.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI8.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI9.DegreeRange" Type="Str">2</Property>
+				<Property Name="cRIOModule.AI9.TCoupleType" Type="Str">0</Property>
+				<Property Name="cRIOModule.Conversion Time" Type="Str">1</Property>
+				<Property Name="cRIOModule.DigitalIOMode" Type="Str">0</Property>
+				<Property Name="cRIOModule.Enable Open TC Detection" Type="Str">true</Property>
+				<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
+				<Item Name="AI0" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">0</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI0</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="AI1" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI1</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="AI2" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">2</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI2</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="AI3" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">3</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI3</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="AI4" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI4</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="AI5" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">5</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI5</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="AI6" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">6</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI6</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="AI7" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">7</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI7</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="GM DS-2" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">8</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI8</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="Path" Type="Str">/B2G.lvproj/cRIO gas/Chassis/AI1/</Property>
+					<Property Name="Scaling:Coerce" Type="Str">False</Property>
+					<Property Name="Scaling:EngMax" Type="Str">1.000000</Property>
+					<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
+					<Property Name="Scaling:EngUnit" Type="Str">bar</Property>
+					<Property Name="Scaling:RawMax" Type="Str">0.020000</Property>
+					<Property Name="Scaling:RawMin" Type="Str">0.004000</Property>
+					<Property Name="Scaling:Type" Type="Str">Linear</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">*1!!!"%!A!A!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="AI9" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">9</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI9</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="AI10" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">10</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI10</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="AI11" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">11</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI11</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="GM GA-1 co2" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">12</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI12</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="Path" Type="Str">/B2G.lvproj/cRIO gas/Chassis/AI1/</Property>
+					<Property Name="Scaling:Coerce" Type="Str">False</Property>
+					<Property Name="Scaling:EngMax" Type="Str">100</Property>
+					<Property Name="Scaling:EngMin" Type="Str">0</Property>
+					<Property Name="Scaling:EngUnit" Type="Str"></Property>
+					<Property Name="Scaling:RawMax" Type="Str">0.02</Property>
+					<Property Name="Scaling:RawMin" Type="Str">0.004</Property>
+					<Property Name="Scaling:Type" Type="Str">Linear</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="GM GA-1 ch4" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">13</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI13</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="Path" Type="Str">/B2G.lvproj/cRIO gas/Chassis/AI1/</Property>
+					<Property Name="Scaling:Coerce" Type="Str">False</Property>
+					<Property Name="Scaling:EngMax" Type="Str">100</Property>
+					<Property Name="Scaling:EngMin" Type="Str">0</Property>
+					<Property Name="Scaling:EngUnit" Type="Str"></Property>
+					<Property Name="Scaling:RawMax" Type="Str">0.02</Property>
+					<Property Name="Scaling:RawMin" Type="Str">0.004</Property>
+					<Property Name="Scaling:Type" Type="Str">Linear</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="GM GA-1 h2" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">14</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI14</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="Path" Type="Str">/B2G.lvproj/cRIO gas/Chassis/AI1/</Property>
+					<Property Name="Scaling:Coerce" Type="Str">False</Property>
+					<Property Name="Scaling:EngMax" Type="Str">100</Property>
+					<Property Name="Scaling:EngMin" Type="Str">0</Property>
+					<Property Name="Scaling:EngUnit" Type="Str"></Property>
+					<Property Name="Scaling:RawMax" Type="Str">0.02</Property>
+					<Property Name="Scaling:RawMin" Type="Str">0.004</Property>
+					<Property Name="Scaling:Type" Type="Str">Linear</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+				<Item Name="AI15" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">15</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">AI15</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+				</Item>
+			</Item>
 		</Item>
+		<Item Name="SQLite Example.vi" Type="VI" URL="../lv_sqlite_103/SQLite Example.vi"/>
+		<Item Name="State.ctl" Type="VI" URL="../lv_sqlite_103/State.ctl"/>
 		<Item Name="target_gas.vi" Type="VI" URL="../target_gas.vi"/>
 		<Item Name="variables - gas.lvlib" Type="Library" URL="../variables - gas/variables - gas.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
 			<Item Name="Input - Cluster gas.ctl" Type="VI" URL="../Input - Cluster gas.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="Output - Cluster gas.ctl" Type="VI" URL="../Output - Cluster gas.ctl"/>
+			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
