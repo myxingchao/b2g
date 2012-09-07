@@ -7,6 +7,7 @@
 	<Property Name="varPersistentID:{025F04D9-07CC-48CF-AD92-6115EF67AF1B}" Type="Ref">/cRIO gas/Chassis/AI1/AI7</Property>
 	<Property Name="varPersistentID:{028C5DCA-3A57-4F77-9584-FFBF868336FF}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO27</Property>
 	<Property Name="varPersistentID:{028D683E-5D76-4F89-9CD0-7D873B5CB5AB}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI26</Property>
+	<Property Name="varPersistentID:{02C9CF87-D3A3-442F-AC27-1A69AFB23727}" Type="Ref">/cRIO gas/vi/ReadIOValues gas.vi/GZ-1 Volume/done</Property>
 	<Property Name="varPersistentID:{02DA5E82-7794-45C1-BC4C-2AE9E5DE8DF4}" Type="Ref">/cRIO gas/variables - gas.lvlib/stop - network gas</Property>
 	<Property Name="varPersistentID:{032E7B9A-7C7A-4437-91F0-D897CEE6BAAD}" Type="Ref">/cRIO gas/Chassis/DI1/DI9</Property>
 	<Property Name="varPersistentID:{05ED13D2-6383-4E6F-927E-8DB59CDED8AF}" Type="Ref">/cRIO gas/Chassis/DI2/B2G1 HR V1.1 1</Property>
@@ -25,6 +26,7 @@
 	<Property Name="varPersistentID:{0EA61140-0A07-4A06-8209-C115B284A6DF}" Type="Ref">/cRIO gas/Chassis/AI1/GM GA-1 co2</Property>
 	<Property Name="varPersistentID:{0F855B33-774E-4FEF-8300-3B338ADB1640}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO28</Property>
 	<Property Name="varPersistentID:{10580A10-6713-44A2-A4B5-704489F715DC}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/setpoint low</Property>
+	<Property Name="varPersistentID:{10C4F5EB-A4BD-492A-A5DA-68FCD2953FC1}" Type="Ref">/cRIO gas/vi/ReadIOValues gas.vi/GZ-1 Volume/error in</Property>
 	<Property Name="varPersistentID:{11C1B910-4CC5-4101-9E2B-240A2039D771}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI24</Property>
 	<Property Name="varPersistentID:{11CA62BA-6D71-4C9F-92C5-B5CAD4F73B4E}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/linearity</Property>
 	<Property Name="varPersistentID:{1246ABA8-0783-49D0-B9F9-1FB1F5A8C32D}" Type="Ref">/cRIO gas/Chassis/AI1/AI1</Property>
@@ -67,6 +69,7 @@
 	<Property Name="varPersistentID:{25E30DC3-B299-4383-86BC-976C11094AC7}" Type="Ref">/cRIO b2g2/Chassis/AII1/AI9</Property>
 	<Property Name="varPersistentID:{25F58367-7990-4374-8E2C-A111042CCAF5}" Type="Ref">/cRIO gas/Chassis/DI2/Fab1 BL V1.1 1</Property>
 	<Property Name="varPersistentID:{2613C1B4-40C0-4033-BE1A-B1BCD878C212}" Type="Ref">/cRIO gas/Chassis/DO/DO6</Property>
+	<Property Name="varPersistentID:{264F0A48-8E96-418F-853D-4EC52C931448}" Type="Ref">/cRIO gas/vi/ReadIOValues gas.vi/GZ-1 Volume/error out</Property>
 	<Property Name="varPersistentID:{26807686-F5AC-4985-AC3B-A07EFD12A82D}" Type="Ref">/cRIO b2g2/Chassis/AII1/AI12</Property>
 	<Property Name="varPersistentID:{279D56CF-28C6-4819-BA8C-A530831B1607}" Type="Ref">/cRIO b2g1/Chassis/AOU1/B2G1 P-5</Property>
 	<Property Name="varPersistentID:{27D6A233-1D02-4654-B36C-D5718D8C00AE}" Type="Ref">/cRIO b2g2/Chassis/AII1/B2G2 DFS1</Property>
@@ -77,6 +80,7 @@
 	<Property Name="varPersistentID:{2CC4B00B-5829-4F43-A1B6-84B3C9D5794A}" Type="Ref">/cRIO b2g2/Chassis/AII1/AI8</Property>
 	<Property Name="varPersistentID:{2DBD1745-545C-4937-9B1B-4A62E9A60884}" Type="Ref">/cRIO gas/Chassis/DI1/DI5</Property>
 	<Property Name="varPersistentID:{2DEDF469-3938-4CF2-8D96-F412719A5C00}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI30</Property>
+	<Property Name="varPersistentID:{2E799EB3-BCB0-41FE-9DD0-BBF73AC74034}" Type="Ref">/cRIO gas/vi/ReadIOValues gas.vi/GZ-1 Volume/counter value</Property>
 	<Property Name="varPersistentID:{2EC67722-2438-4F0F-9FDA-71FD7EBB6965}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/auto? (T)</Property>
 	<Property Name="varPersistentID:{301C6B0E-DFF5-4CD1-8ED8-97A7E0C2B26A}" Type="Ref">/cRIO gas/Chassis/DO/DO15</Property>
 	<Property Name="varPersistentID:{30C6F8EF-1E2D-4202-B966-FAF668FD0B4E}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI18</Property>
@@ -122,6 +126,7 @@
 	<Property Name="varPersistentID:{4EB3BF85-969A-4687-84C4-D42931D0090E}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI29</Property>
 	<Property Name="varPersistentID:{4F10E72F-D759-4418-ABC4-2348B6EA539C}" Type="Ref">/cRIO b2g1/Chassis/AOU1/AO10</Property>
 	<Property Name="varPersistentID:{4F242117-B122-45CB-8641-991751F6DDBC}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 V14 1</Property>
+	<Property Name="varPersistentID:{4F934101-EDD3-4514-801E-D534744F7373}" Type="Ref">/cRIO gas/vi/ReadIOValues gas.vi/GZ-1 Volume/reset</Property>
 	<Property Name="varPersistentID:{4F9F4203-193C-4618-AAB0-8FBEA17FA0C6}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/setpoint</Property>
 	<Property Name="varPersistentID:{5135A9AE-DFCF-4B2F-B966-CE19D0DC5A2B}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI25</Property>
 	<Property Name="varPersistentID:{518E19C4-65F0-496A-A74C-3DF491FD641B}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO30</Property>
@@ -241,6 +246,7 @@
 	<Property Name="varPersistentID:{A15BB05C-E4FA-4A9C-AF07-84A629A3C596}" Type="Ref">/cRIO b2g1/Chassis/AII1/AI10</Property>
 	<Property Name="varPersistentID:{A263F9F9-423A-448D-AEAB-C1C60BCE7C57}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/output high</Property>
 	<Property Name="varPersistentID:{A34E6304-21CF-41A8-BB30-FFEEE13B48E2}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI26</Property>
+	<Property Name="varPersistentID:{A449F263-6CCE-4FAC-9A5A-80C538C7B3AD}" Type="Ref">/cRIO gas/vi/ReadIOValues gas.vi/GZ-1 Volume/preset value</Property>
 	<Property Name="varPersistentID:{A4C4C8DC-9E8A-4EAE-8D2A-789F8C6B2C82}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/setpoint high</Property>
 	<Property Name="varPersistentID:{A5BC461E-B8C2-4EDF-963C-A0CB69B56598}" Type="Ref">/cRIO gas/Chassis/DO/DO20</Property>
 	<Property Name="varPersistentID:{A66BB9C2-6F32-4B11-B18D-0638E6BF2963}" Type="Ref">/cRIO gas/Chassis/DO/DO11</Property>
@@ -341,6 +347,7 @@
 	<Property Name="varPersistentID:{E361723B-0554-4DC8-A0D8-38BCF776F816}" Type="Ref">/cRIO gas/Chassis/DI1/DI26</Property>
 	<Property Name="varPersistentID:{E42497B3-62FB-4326-813E-E42A30F072AC}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V10 0</Property>
 	<Property Name="varPersistentID:{E4CF34B7-6D34-4351-8D53-E6F4763211AC}" Type="Ref">/cRIO b2g2/Chassis/AOU1/AO3</Property>
+	<Property Name="varPersistentID:{E5ADA7DC-A912-4634-A1F9-3A06B52F0124}" Type="Ref">/cRIO gas/vi/ReadIOValues gas.vi/GZ-1 Volume/count up</Property>
 	<Property Name="varPersistentID:{E75E228F-1452-4A45-B71D-FD0D891F4E55}" Type="Ref">/cRIO gas/Chassis/AI1/AI4</Property>
 	<Property Name="varPersistentID:{E76600D6-2B99-41AB-A604-61D541BF120A}" Type="Ref">/cRIO gas/Chassis/DO/DO2</Property>
 	<Property Name="varPersistentID:{E7D15C65-1B49-4EAF-A2FE-ED1D0B12EA19}" Type="Ref">/cRIO b2g1/variables - b2g1.lvlib/data - network - b2g1</Property>
@@ -1248,6 +1255,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">2</Property>
 		<Property Name="host.TargetOSID" Type="UInt">14</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -1329,9 +1337,22 @@ KeepAliveTimeout 60
 			<Item Name="SQL Select.vi" Type="VI" URL="../lv_sqlite_103/SQL Select.vi"/>
 		</Item>
 		<Item Name="vi" Type="Folder">
-			<Item Name="ReadIOValues gas.vi" Type="VI" URL="../ReadIOValues gas.vi"/>
+			<Item Name="gm_measuringpoint_enable.vi" Type="VI" URL="../gm_measuringpoint_enable.vi"/>
+			<Item Name="gm_measuringpoint_valid.vi" Type="VI" URL="../gm_measuringpoint_valid.vi"/>
+			<Item Name="ReadIOValues gas.vi" Type="VI" URL="../ReadIOValues gas.vi">
+				<Item Name="GZ-1 Volume" Type="IIO Function Block">
+					<Item Name="count up" Type="Variable"/>
+					<Item Name="counter value" Type="Variable"/>
+					<Item Name="done" Type="Variable"/>
+					<Item Name="error in" Type="Variable"/>
+					<Item Name="error out" Type="Variable"/>
+					<Item Name="preset value" Type="Variable"/>
+					<Item Name="reset" Type="Variable"/>
+				</Item>
+			</Item>
 			<Item Name="WriteIOSafeCondition gas.vi" Type="VI" URL="../WriteIOSafeCondition gas.vi"/>
 			<Item Name="WriteIOValues gas.vi" Type="VI" URL="../WriteIOValues gas.vi"/>
+			<Item Name="gm_measuringmode.vi" Type="VI" URL="../gm_measuringmode.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
@@ -3050,8 +3071,6 @@ KeepAliveTimeout 60
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="gm_measuringpoint_enable.vi" Type="VI" URL="../gm_measuringpoint_enable.vi"/>
-		<Item Name="gm_measuringpoint_valid.vi" Type="VI" URL="../gm_measuringpoint_valid.vi"/>
 		<Item Name="SQLite Example.vi" Type="VI" URL="../lv_sqlite_103/SQLite Example.vi"/>
 		<Item Name="State.ctl" Type="VI" URL="../lv_sqlite_103/State.ctl"/>
 		<Item Name="target_gas.vi" Type="VI" URL="../target_gas.vi"/>
@@ -3061,12 +3080,15 @@ KeepAliveTimeout 60
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
 			<Item Name="gm_measuringpoint_valves_feedback.vi" Type="VI" URL="../gm_measuringpoint_valves_feedback.vi"/>
 			<Item Name="Input - Cluster gas.ctl" Type="VI" URL="../Input - Cluster gas.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
 			<Item Name="Output - Cluster gas.ctl" Type="VI" URL="../Output - Cluster gas.ctl"/>
 			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
