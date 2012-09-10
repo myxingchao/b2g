@@ -416,6 +416,7 @@
 				<Item Name="LogDBIntegerChangeArray.vi" Type="VI" URL="../LogDBIntegerChangeArray.vi"/>
 			</Item>
 			<Item Name="ui" Type="Folder">
+				<Item Name="UiControls_gas.vi" Type="VI" URL="../UiControls_gas.vi"/>
 				<Item Name="tri-state_led.vi" Type="VI" URL="../tri-state_led.vi"/>
 				<Item Name="UiControls_b2g2.vi" Type="VI" URL="../UiControls_b2g2.vi"/>
 				<Item Name="TotalVolumeFromDosageTimetable.vi" Type="VI" URL="../TotalVolumeFromDosageTimetable.vi"/>
@@ -558,6 +559,7 @@
 			<Item Name="Input - Cluster b2g1.ctl" Type="VI" URL="../Input - Cluster b2g1.ctl"/>
 			<Item Name="Output - Cluster b2g1.ctl" Type="VI" URL="../Output - Cluster b2g1.ctl"/>
 			<Item Name="Output - Cluster gas.ctl" Type="VI" URL="../Output - Cluster gas.ctl"/>
+			<Item Name="Input - Cluster gas.ctl" Type="VI" URL="../Input - Cluster gas.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="UiMonitor" Type="EXE">
@@ -3080,15 +3082,12 @@ KeepAliveTimeout 60
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
 			<Item Name="gm_measuringpoint_valves_feedback.vi" Type="VI" URL="../gm_measuringpoint_valves_feedback.vi"/>
 			<Item Name="Input - Cluster gas.ctl" Type="VI" URL="../Input - Cluster gas.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
-			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
 			<Item Name="Output - Cluster gas.ctl" Type="VI" URL="../Output - Cluster gas.ctl"/>
 			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
