@@ -416,20 +416,21 @@
 				<Item Name="LogDBIntegerChangeArray.vi" Type="VI" URL="../LogDBIntegerChangeArray.vi"/>
 			</Item>
 			<Item Name="ui" Type="Folder">
-				<Item Name="UiControls_gas.vi" Type="VI" URL="../UiControls_gas.vi"/>
-				<Item Name="tri-state_led.vi" Type="VI" URL="../tri-state_led.vi"/>
-				<Item Name="UiControls_b2g2.vi" Type="VI" URL="../UiControls_b2g2.vi"/>
-				<Item Name="TotalVolumeFromDosageTimetable.vi" Type="VI" URL="../TotalVolumeFromDosageTimetable.vi"/>
+				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="DosageTimetable.vi" Type="VI" URL="../DosageTimetable.vi"/>
-				<Item Name="UiControls_b2g1.vi" Type="VI" URL="../UiControls_b2g1.vi"/>
+				<Item Name="GetSetCtrls.vi" Type="VI" URL="../GetSetCtrls.vi"/>
+				<Item Name="reset_led.vi" Type="VI" URL="../reset_led.vi"/>
+				<Item Name="TotalVolumeFromDosageTimetable.vi" Type="VI" URL="../TotalVolumeFromDosageTimetable.vi"/>
+				<Item Name="tri-state_led.vi" Type="VI" URL="../tri-state_led.vi"/>
 				<Item Name="UiCharts_b2g1.vi" Type="VI" URL="../UiCharts_b2g1.vi"/>
 				<Item Name="UiCharts_b2g2.vi" Type="VI" URL="../UiCharts_b2g2.vi"/>
+				<Item Name="UiControls_b2g1.vi" Type="VI" URL="../UiControls_b2g1.vi"/>
+				<Item Name="UiControls_b2g2.vi" Type="VI" URL="../UiControls_b2g2.vi"/>
+				<Item Name="UiControls_gas.vi" Type="VI" URL="../UiControls_gas.vi"/>
+				<Item Name="UiSchematic.vi" Type="VI" URL="../UiSchematic.vi"/>
 				<Item Name="UiSchematic_b2g1.vi" Type="VI" URL="../UiSchematic_b2g1.vi"/>
 				<Item Name="UiSchematic_b2g2.vi" Type="VI" URL="../UiSchematic_b2g2.vi"/>
-				<Item Name="UiSchematic.vi" Type="VI" URL="../UiSchematic.vi"/>
-				<Item Name="GetSetCtrls.vi" Type="VI" URL="../GetSetCtrls.vi"/>
 				<Item Name="UiSchematic_gas.vi" Type="VI" URL="../UiSchematic_gas.vi"/>
-				<Item Name="reset_led.vi" Type="VI" URL="../reset_led.vi"/>
 			</Item>
 			<Item Name="old" Type="Folder">
 				<Item Name="Test-UI.vi" Type="VI" URL="../Test-UI.vi"/>
@@ -459,6 +460,12 @@
 				<Item Name="SM_S700_Serial_String_to_timestamp.vi" Type="VI" URL="../SM_S700_Serial_String_to_timestamp.vi"/>
 				<Item Name="SM_S700_Serial_String_to_gasvalues.vi" Type="VI" URL="../SM_S700_Serial_String_to_gasvalues.vi"/>
 			</Item>
+			<Item Name="sqlite" Type="Folder">
+				<Item Name="SQLite Example.vi" Type="VI" URL="../lv_sqlite_103/SQLite Example.vi"/>
+				<Item Name="State.ctl" Type="VI" URL="../lv_sqlite_103/State.ctl"/>
+				<Item Name="SQL Get DB Schema.vi" Type="VI" URL="../lv_sqlite_103/SQL Get DB Schema.vi"/>
+				<Item Name="SQL Select.vi" Type="VI" URL="../lv_sqlite_103/SQL Select.vi"/>
+			</Item>
 			<Item Name="UiDBCharts.vi" Type="VI" URL="../UiDBCharts.vi"/>
 			<Item Name="UiGasMeasurement.vi" Type="VI" URL="../UiGasMeasurement.vi"/>
 			<Item Name="UiMonitor.vi" Type="VI" URL="../UiMonitor.vi"/>
@@ -467,11 +474,13 @@
 			<Item Name="UiGascounter.vi" Type="VI" URL="../UiGascounter.vi"/>
 			<Item Name="host_logging_b2g2.vi" Type="VI" URL="../host_logging_b2g2.vi"/>
 			<Item Name="host_logging_b2g1.vi" Type="VI" URL="../host_logging_b2g1.vi"/>
+			<Item Name="host_logging_gm.vi" Type="VI" URL="../host_logging_gm.vi"/>
 		</Item>
 		<Item Name="dsn" Type="Folder">
 			<Item Name="B2G_db_local.dsn" Type="Document" URL="../B2G_db_local.dsn"/>
 			<Item Name="B2G_db_rz.dsn" Type="Document" URL="../B2G_db_rz.dsn"/>
 		</Item>
+		<Item Name="ui_connection_status.vi" Type="VI" URL="../ui_connection_status.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
@@ -516,6 +525,7 @@
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 34970.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34970/Agilent 34970.lvlib"/>
@@ -560,6 +570,10 @@
 			<Item Name="Output - Cluster b2g1.ctl" Type="VI" URL="../Output - Cluster b2g1.ctl"/>
 			<Item Name="Output - Cluster gas.ctl" Type="VI" URL="../Output - Cluster gas.ctl"/>
 			<Item Name="Input - Cluster gas.ctl" Type="VI" URL="../Input - Cluster gas.ctl"/>
+			<Item Name="SQL Query.vi" Type="VI" URL="../lv_sqlite_103/SQL Query.vi"/>
+			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="UiMonitor" Type="EXE">
@@ -1334,9 +1348,8 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
 		<Item Name="SQLite" Type="Folder">
-			<Item Name="SQL Get DB Schema.vi" Type="VI" URL="../lv_sqlite_103/SQL Get DB Schema.vi"/>
 			<Item Name="SQL Query.vi" Type="VI" URL="../lv_sqlite_103/SQL Query.vi"/>
-			<Item Name="SQL Select.vi" Type="VI" URL="../lv_sqlite_103/SQL Select.vi"/>
+			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
 		</Item>
 		<Item Name="vi" Type="Folder">
 			<Item Name="gm_measuringpoint_enable.vi" Type="VI" URL="../gm_measuringpoint_enable.vi"/>
@@ -1355,6 +1368,15 @@ KeepAliveTimeout 60
 			<Item Name="WriteIOSafeCondition gas.vi" Type="VI" URL="../WriteIOSafeCondition gas.vi"/>
 			<Item Name="WriteIOValues gas.vi" Type="VI" URL="../WriteIOValues gas.vi"/>
 			<Item Name="gm_measuringmode.vi" Type="VI" URL="../gm_measuringmode.vi"/>
+			<Item Name="gm_measuringmode_flushing.vi" Type="VI" URL="../gm_measuringmode_flushing.vi"/>
+			<Item Name="gm_sqlite_write_time.vi" Type="VI" URL="../gm_sqlite_write_time.vi"/>
+			<Item Name="gm_sqlite_createtable.vi" Type="VI" URL="../gm_sqlite_createtable.vi"/>
+			<Item Name="gm_measuringpoint_valves_feedback.vi" Type="VI" URL="../gm_measuringpoint_valves_feedback.vi"/>
+			<Item Name="gm_sqlite_write_measvalues.vi" Type="VI" URL="../gm_sqlite_write_measvalues.vi"/>
+		</Item>
+		<Item Name="ctl" Type="Folder">
+			<Item Name="Input - Cluster gas.ctl" Type="VI" URL="../Input - Cluster gas.ctl"/>
+			<Item Name="Output - Cluster gas.ctl" Type="VI" URL="../Output - Cluster gas.ctl"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
@@ -3073,21 +3095,16 @@ KeepAliveTimeout 60
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="SQLite Example.vi" Type="VI" URL="../lv_sqlite_103/SQLite Example.vi"/>
-		<Item Name="State.ctl" Type="VI" URL="../lv_sqlite_103/State.ctl"/>
 		<Item Name="target_gas.vi" Type="VI" URL="../target_gas.vi"/>
 		<Item Name="variables - gas.lvlib" Type="Library" URL="../variables - gas/variables - gas.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
-			<Item Name="gm_measuringpoint_valves_feedback.vi" Type="VI" URL="../gm_measuringpoint_valves_feedback.vi"/>
-			<Item Name="Input - Cluster gas.ctl" Type="VI" URL="../Input - Cluster gas.ctl"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
-			<Item Name="Output - Cluster gas.ctl" Type="VI" URL="../Output - Cluster gas.ctl"/>
-			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
+			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -3143,6 +3160,10 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
+		<Item Name="ctl" Type="Folder">
+			<Item Name="Input - Cluster b2g1.ctl" Type="VI" URL="../Input - Cluster b2g1.ctl"/>
+			<Item Name="Output - Cluster b2g1.ctl" Type="VI" URL="../Output - Cluster b2g1.ctl"/>
+		</Item>
 		<Item Name="vi" Type="Folder">
 			<Item Name="CirculationCtl.vi" Type="VI" URL="../CirculationCtl.vi"/>
 			<Item Name="DosageCtl.vi" Type="VI" URL="../DosageCtl.vi">
@@ -3168,9 +3189,7 @@ KeepAliveTimeout 60
 					<Item Name="setpoint low" Type="Variable"/>
 				</Item>
 			</Item>
-			<Item Name="Input - Cluster b2g1.ctl" Type="VI" URL="../Input - Cluster b2g1.ctl"/>
 			<Item Name="MRFillLevelSafety.vi" Type="VI" URL="../MRFillLevelSafety.vi"/>
-			<Item Name="Output - Cluster b2g1.ctl" Type="VI" URL="../Output - Cluster b2g1.ctl"/>
 			<Item Name="PressureFillLevelCtl.vi" Type="VI" URL="../PressureFillLevelCtl.vi"/>
 			<Item Name="PressureSecurityCtl.vi" Type="VI" URL="../PressureSecurityCtl.vi"/>
 			<Item Name="ReadIOValues b2g1.vi" Type="VI" URL="../ReadIOValues b2g1.vi">
@@ -4877,6 +4896,10 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
+		<Item Name="ctl" Type="Folder">
+			<Item Name="Input - Cluster b2g2.ctl" Type="VI" URL="../Input - Cluster b2g2.ctl"/>
+			<Item Name="Output - Cluster b2g1.ctl" Type="VI" URL="../Output - Cluster b2g1.ctl"/>
+		</Item>
 		<Item Name="vi" Type="Folder">
 			<Item Name="CirculationCtl.vi" Type="VI" URL="../CirculationCtl.vi"/>
 			<Item Name="cluster-head-to-file.vi" Type="VI" URL="../cluster-head-to-file.vi"/>
@@ -4904,7 +4927,6 @@ KeepAliveTimeout 60
 				</Item>
 			</Item>
 			<Item Name="FileLogTargetCtl.vi" Type="VI" URL="../FileLogTargetCtl.vi"/>
-			<Item Name="Input - Cluster b2g2.ctl" Type="VI" URL="../Input - Cluster b2g2.ctl"/>
 			<Item Name="MRFillLevelSafety.vi" Type="VI" URL="../MRFillLevelSafety.vi"/>
 			<Item Name="Output - Cluster b2g2.ctl" Type="VI" URL="../Output - Cluster b2g2.ctl"/>
 			<Item Name="output-cluster-data-to-file.vi" Type="VI" URL="../output-cluster-data-to-file.vi"/>
@@ -6316,7 +6338,6 @@ KeepAliveTimeout 60
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Output - Cluster b2g1.ctl" Type="VI" URL="../Output - Cluster b2g1.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="B2G2" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
