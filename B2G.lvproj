@@ -579,6 +579,7 @@
 			<Item Name="SQL Query.vi" Type="VI" URL="../lv_sqlite_103/SQL Query.vi"/>
 			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="gas_values.ctl" Type="VI" URL="../gas_values.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="UiMonitor" Type="EXE">
@@ -1273,8 +1274,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{83999700-8BA0-4325-8C5C-DA1501371892}</Property>
-				<Property Name="Destination[0].destName" Type="Str">UiStdControl_gm.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/UiStdControl_gm.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">UiStdControl_gm2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/UiStdControl_gm2.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -1310,7 +1311,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
 				<Property Name="TgtF_productName" Type="Str">UiStdControl_gm</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{2CE7F2DE-ABB9-4908-817A-51936A354A50}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">UiStdControl_gm.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">UiStdControl_gm2.exe</Property>
 			</Item>
 			<Item Name="logging_gm" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -1323,8 +1324,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4B4AB6CA-DC87-4772-8DE5-0C56BF4DE651}</Property>
-				<Property Name="Destination[0].destName" Type="Str">logging_gm.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/logging_gm.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">logging_gm2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/logging_gm2.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -1348,7 +1349,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
 				<Property Name="TgtF_productName" Type="Str">logging_gm</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D186F9AB-C50A-4C92-8913-248975F31AB6}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">logging_gm.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">logging_gm2.exe</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -3244,14 +3245,18 @@ KeepAliveTimeout 60
 		</Item>
 		<Item Name="target_gm.vi" Type="VI" URL="../target_gm.vi"/>
 		<Item Name="variables - gm.lvlib" Type="Library" URL="../variables - gas/variables - gm.lvlib"/>
+		<Item Name="rt_vars_gm.ctl" Type="VI" URL="../rt_vars_gm.ctl"/>
+		<Item Name="gas_values.ctl" Type="VI" URL="../gas_values.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
