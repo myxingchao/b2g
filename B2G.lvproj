@@ -212,7 +212,7 @@
 	<Property Name="varPersistentID:{86107A15-3A4F-4B75-BDB9-6D42F6130E14}" Type="Ref">/cRIO gm/Chassis/DI1/Fab1 HR V-1 0</Property>
 	<Property Name="varPersistentID:{86500DD1-DE3C-441F-B3B8-04A4E4CC176C}" Type="Ref">/cRIO b2g1/Chassis/AII1/B2G1 DS-1</Property>
 	<Property Name="varPersistentID:{86893B36-EBDC-43D0-8071-B1415E8C3871}" Type="Ref">/cRIO b2g2/variables - b2g2.lvlib/input - network b2g2</Property>
-	<Property Name="varPersistentID:{86AD5403-B15F-4A4A-835C-09AE0790EE0E}" Type="Ref">/cRIO gm/Chassis/DO/DO26</Property>
+	<Property Name="varPersistentID:{86AD5403-B15F-4A4A-835C-09AE0790EE0E}" Type="Ref">/cRIO gm/Chassis/DO/GM cal V1.1</Property>
 	<Property Name="varPersistentID:{86EDB8CD-BFBA-4A58-908D-A3DCA21ACFC8}" Type="Ref">/cRIO gm/Chassis/DI2/Fab2 MR V1.1 0</Property>
 	<Property Name="varPersistentID:{879BB8E4-3E37-4AB1-8F05-055C239B4363}" Type="Ref">/cRIO gm/Chassis/DI1/B2G1 T-2 V-1 1</Property>
 	<Property Name="varPersistentID:{87A77348-7199-46B0-BFAA-B0C91D963AF5}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI27</Property>
@@ -254,7 +254,7 @@
 	<Property Name="varPersistentID:{A85EF147-84C2-496B-A022-6E728E57762A}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/integral time (Ti, min)</Property>
 	<Property Name="varPersistentID:{A864CF0C-0DE0-40B6-977A-22C4BEA83D31}" Type="Ref">/cRIO b2g1/Chassis/AII1/B2G1 pHS-1</Property>
 	<Property Name="varPersistentID:{A93E49C5-FA9C-457A-8AE4-3F90C32BA556}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI16</Property>
-	<Property Name="varPersistentID:{A9D57EA1-A23F-4326-ADFF-0A634DA760B8}" Type="Ref">/cRIO gm/Chassis/DI1/DI1</Property>
+	<Property Name="varPersistentID:{A9D57EA1-A23F-4326-ADFF-0A634DA760B8}" Type="Ref">/cRIO gm/Chassis/DI1/manual operation</Property>
 	<Property Name="varPersistentID:{AA6D6C81-2BB8-4A89-ADC1-526C86AB6F4B}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 V34 1</Property>
 	<Property Name="varPersistentID:{AA7D3280-C79D-440E-A662-D95AAC417398}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO8</Property>
 	<Property Name="varPersistentID:{ABBF28EB-FD73-42B4-8665-2C233D0D5CC5}" Type="Ref">/cRIO gm/Chassis/DI1/Fab1 HR V-1 1</Property>
@@ -414,6 +414,7 @@
 				<Item Name="LogDBIntChange.vi" Type="VI" URL="../LogDBIntChange.vi"/>
 				<Item Name="LogDBBoolChangeArray.vi" Type="VI" URL="../LogDBBoolChangeArray.vi"/>
 				<Item Name="LogDBIntegerChangeArray.vi" Type="VI" URL="../LogDBIntegerChangeArray.vi"/>
+				<Item Name="gm_mysql_write_gmvalues.vi" Type="VI" URL="../gm_mysql_write_gmvalues.vi"/>
 			</Item>
 			<Item Name="ui" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -487,6 +488,7 @@
 			<Item Name="B2G_db_local.dsn" Type="Document" URL="../B2G_db_local.dsn"/>
 			<Item Name="B2G_db_rz.dsn" Type="Document" URL="../B2G_db_rz.dsn"/>
 		</Item>
+		<Item Name="log_vars_gm.ctl" Type="VI" URL="../log_vars_gm.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
@@ -1471,6 +1473,8 @@ KeepAliveTimeout 60
 		<Item Name="ctl" Type="Folder">
 			<Item Name="Input - Cluster gas.ctl" Type="VI" URL="../Input - Cluster gas.ctl"/>
 			<Item Name="Output - Cluster gas.ctl" Type="VI" URL="../Output - Cluster gas.ctl"/>
+			<Item Name="gas_values.ctl" Type="VI" URL="../gas_values.ctl"/>
+			<Item Name="rt_vars_gm.ctl" Type="VI" URL="../rt_vars_gm.ctl"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
@@ -1499,10 +1503,11 @@ KeepAliveTimeout 60
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
-				<Item Name="DI1" Type="Variable">
+				<Item Name="manual operation" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">1</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -1511,7 +1516,7 @@ KeepAliveTimeout 60
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"%!A!A!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
 				<Item Name="DI2" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -2828,10 +2833,11 @@ KeepAliveTimeout 60
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
-				<Item Name="DO26" Type="Variable">
+				<Item Name="GM cal V1.1" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">26</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -2840,7 +2846,7 @@ KeepAliveTimeout 60
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"%!A!A!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
 				<Item Name="DO27" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -3245,18 +3251,17 @@ KeepAliveTimeout 60
 		</Item>
 		<Item Name="target_gm.vi" Type="VI" URL="../target_gm.vi"/>
 		<Item Name="variables - gm.lvlib" Type="Library" URL="../variables - gas/variables - gm.lvlib"/>
-		<Item Name="rt_vars_gm.ctl" Type="VI" URL="../rt_vars_gm.ctl"/>
-		<Item Name="gas_values.ctl" Type="VI" URL="../gas_values.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="limit_array_size.vi" Type="VI" URL="../limit_array_size.vi"/>
 			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
