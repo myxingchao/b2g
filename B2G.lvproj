@@ -48,7 +48,7 @@
 	<Property Name="varPersistentID:{1F8E37DA-7C8D-4391-8B48-1A3C1ABC5F3E}" Type="Ref">/cRIO b2g1/Chassis/AOU1/AO11</Property>
 	<Property Name="varPersistentID:{215629DD-1B45-443D-9922-68E2A5F038EA}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI17</Property>
 	<Property Name="varPersistentID:{216239D6-8EC4-48C2-ACD8-656A7CC4C17B}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/error in</Property>
-	<Property Name="varPersistentID:{217D2E2C-9C8C-4FFC-928D-62154B449C3B}" Type="Ref">/cRIO gm/Chassis/DI1/DI15</Property>
+	<Property Name="varPersistentID:{217D2E2C-9C8C-4FFC-928D-62154B449C3B}" Type="Ref">/cRIO gm/Chassis/DI1/GM MP manual V-1.1 1</Property>
 	<Property Name="varPersistentID:{21AA019A-4201-455E-AE52-57268D412839}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO27</Property>
 	<Property Name="varPersistentID:{21B61A6B-8E4B-458E-91B5-D6875B0DE4D4}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO6</Property>
 	<Property Name="varPersistentID:{2232FC05-FE55-4027-86B3-5756876F10E1}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/setpoint high</Property>
@@ -207,7 +207,7 @@
 	<Property Name="varPersistentID:{86107A15-3A4F-4B75-BDB9-6D42F6130E14}" Type="Ref">/cRIO gm/Chassis/DI1/Fab1 HR V-1 0</Property>
 	<Property Name="varPersistentID:{86500DD1-DE3C-441F-B3B8-04A4E4CC176C}" Type="Ref">/cRIO b2g1/Chassis/AII1/B2G1 DS-1</Property>
 	<Property Name="varPersistentID:{86893B36-EBDC-43D0-8071-B1415E8C3871}" Type="Ref">/cRIO b2g2/variables - b2g2.lvlib/input - network b2g2</Property>
-	<Property Name="varPersistentID:{86AD5403-B15F-4A4A-835C-09AE0790EE0E}" Type="Ref">/cRIO gm/Chassis/DO/GM cal V1.1</Property>
+	<Property Name="varPersistentID:{86AD5403-B15F-4A4A-835C-09AE0790EE0E}" Type="Ref">/cRIO gm/Chassis/DO/GM MP manual  V1.1</Property>
 	<Property Name="varPersistentID:{86EDB8CD-BFBA-4A58-908D-A3DCA21ACFC8}" Type="Ref">/cRIO gm/Chassis/DI2/Fab2 MR V1.1 0</Property>
 	<Property Name="varPersistentID:{879BB8E4-3E37-4AB1-8F05-055C239B4363}" Type="Ref">/cRIO gm/Chassis/DI1/B2G1 T-2 V-1 1</Property>
 	<Property Name="varPersistentID:{87A77348-7199-46B0-BFAA-B0C91D963AF5}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI27</Property>
@@ -363,7 +363,7 @@
 	<Property Name="varPersistentID:{F74EF0A5-5E21-4015-9F71-D129A22F86B6}" Type="Ref">/cRIO gm/Chassis/DI2/GA V-2 1</Property>
 	<Property Name="varPersistentID:{F8345EC3-4CED-4F86-B5ED-384F45CA6A0D}" Type="Ref">/cRIO b2g2/variables - b2g2.lvlib/input - RT b2g2</Property>
 	<Property Name="varPersistentID:{FC38AFAC-698B-4114-ACEE-F25ABA9B2766}" Type="Ref">/cRIO gm/Chassis/AI1/AI5</Property>
-	<Property Name="varPersistentID:{FD0B856D-3326-40ED-8045-CAB83C8525DF}" Type="Ref">/cRIO gm/Chassis/DI1/DI14</Property>
+	<Property Name="varPersistentID:{FD0B856D-3326-40ED-8045-CAB83C8525DF}" Type="Ref">/cRIO gm/Chassis/DI1/GM MP manual V-1.1 0</Property>
 	<Property Name="varPersistentID:{FE826857-5871-4FCD-B0CE-F0FB3F95F9FE}" Type="Ref">/cRIO b2g1/vi/ReadIOValues b2g1.vi/DFS-1 Volume/reset</Property>
 	<Property Name="varPersistentID:{FE853E9B-8D54-49D8-B734-AE16ACCF1FC1}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO12</Property>
 	<Property Name="varPersistentID:{FED443D3-93A5-4D0A-8638-8764AABDDA08}" Type="Ref">/cRIO gm/Chassis/DI1/B2G1 MR V-1 0</Property>
@@ -752,7 +752,7 @@
 				<Property Name="SourceCount" Type="Int">13</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">UiStandard</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">8</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">9</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B0E98F60-AAA5-4FF4-938E-F167B77A0F1C}</Property>
@@ -1362,7 +1362,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -1676,10 +1675,11 @@ KeepAliveTimeout 60
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">&amp;1!!!"%!A!A!!!!"!!1!)1!"!!!!!!!!!!</Property>
 				</Item>
-				<Item Name="DI14" Type="Variable">
+				<Item Name="GM MP manual V-1.1 0" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">14</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -1688,12 +1688,13 @@ KeepAliveTimeout 60
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"%!A!A!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
-				<Item Name="DI15" Type="Variable">
+				<Item Name="GM MP manual V-1.1 1" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">15</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -1702,7 +1703,7 @@ KeepAliveTimeout 60
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"%!A!A!!!!"!!1!)1!"!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
 				<Item Name="Fab1 HR V-1 1" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -2823,7 +2824,7 @@ KeepAliveTimeout 60
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
-				<Item Name="GM cal V1.1" Type="Variable">
+				<Item Name="GM MP manual  V1.1" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">26</Property>
@@ -3246,12 +3247,9 @@ KeepAliveTimeout 60
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="limit_array_size.vi" Type="VI" URL="../limit_array_size.vi"/>
-			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GM" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -3311,7 +3309,6 @@ KeepAliveTimeout 60
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -5039,7 +5036,6 @@ KeepAliveTimeout 60
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -6507,7 +6503,6 @@ KeepAliveTimeout 60
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -6519,8 +6514,6 @@ KeepAliveTimeout 60
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="B2G2" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
