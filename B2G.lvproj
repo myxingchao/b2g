@@ -117,7 +117,7 @@
 	<Property Name="varPersistentID:{49BB1EE4-3238-4A4D-921B-301E46C381BE}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 V10 0</Property>
 	<Property Name="varPersistentID:{4A3A50B6-9D30-46EB-8D99-2666C074AC7F}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI21</Property>
 	<Property Name="varPersistentID:{4BC96873-E02D-4046-84A5-E4D130CD14FB}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/error in</Property>
-	<Property Name="varPersistentID:{4D52850B-3445-40F7-AAB0-393FC80E12C1}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO4</Property>
+	<Property Name="varPersistentID:{4D52850B-3445-40F7-AAB0-393FC80E12C1}" Type="Ref">/cRIO b2g1/Chassis/DO1/B2G1 HS2</Property>
 	<Property Name="varPersistentID:{4DC8ECFB-2423-432E-B9E2-B94B9807F19C}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI31</Property>
 	<Property Name="varPersistentID:{4E55432A-C72C-4CBD-90F8-E50D2C270D97}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/setpoint</Property>
 	<Property Name="varPersistentID:{4EB3BF85-969A-4687-84C4-D42931D0090E}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI29</Property>
@@ -3353,6 +3353,7 @@ KeepAliveTimeout 60
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -3439,6 +3440,8 @@ KeepAliveTimeout 60
 			<Item Name="WriteIOSafeCondition b2g1.vi" Type="VI" URL="../WriteIOSafeCondition b2g1.vi"/>
 			<Item Name="WriteIOValues b2g1.vi" Type="VI" URL="../WriteIOValues b2g1.vi"/>
 		</Item>
+		<Item Name="B2G1_sqlite_createtable.vi" Type="VI" URL="../B2G1_sqlite_createtable.vi"/>
+		<Item Name="b2g1_sqlite_write_time.vi" Type="VI" URL="../b2g1_sqlite_write_time.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -3744,6 +3747,7 @@ KeepAliveTimeout 60
 					<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
 					<Property Name="Industrial:ChannelIndex" Type="Str">8</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
 					<Property Name="Industrial:IODirection" Type="Str">Input</Property>
 					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 					<Property Name="Industrial:Mode" Type="Str">1</Property>
@@ -3751,16 +3755,15 @@ KeepAliveTimeout 60
 					<Property Name="Network:UseBinding" Type="Str">False</Property>
 					<Property Name="Network:UseBuffering" Type="Str">False</Property>
 					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="Path" Type="Str">/B2G.lvproj/cRIO b2g1/Chassis/AII1/</Property>
 					<Property Name="Scaling:Coerce" Type="Str">False</Property>
-					<Property Name="Scaling:EngMax" Type="Str">50.000000</Property>
-					<Property Name="Scaling:EngMin" Type="Str">0</Property>
+					<Property Name="Scaling:EngMax" Type="Str">100.000000</Property>
+					<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
 					<Property Name="Scaling:EngUnit" Type="Str">°C</Property>
 					<Property Name="Scaling:RawMax" Type="Str">0.020000</Property>
 					<Property Name="Scaling:RawMin" Type="Str">0.004000</Property>
 					<Property Name="Scaling:Type" Type="Str">Linear</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!</Property>
+					<Property Name="typeDesc" Type="Bin">*1!!!"%!A!A!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="B2G1 TS4" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial,Scaling</Property>
@@ -4572,6 +4575,21 @@ KeepAliveTimeout 60
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
 				</Item>
+				<Item Name="B2G1 HS2" Type="Variable">
+					<Property Name="featurePacks" Type="Str">Industrial</Property>
+					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
+					<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
+					<Property Name="Industrial:EnableTimestamp" Type="Str">False</Property>
+					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
+					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
+					<Property Name="Industrial:Mode" Type="Str">1</Property>
+					<Property Name="Industrial:PhysicalName" Type="Str">DO4</Property>
+					<Property Name="Network:UseBinding" Type="Str">False</Property>
+					<Property Name="Network:UseBuffering" Type="Str">False</Property>
+					<Property Name="numTypedefs" Type="UInt">0</Property>
+					<Property Name="type" Type="Str">Industrial</Property>
+					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
+				</Item>
 				<Item Name="B2G1 P-4 Run" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
 					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
@@ -4676,20 +4694,6 @@ KeepAliveTimeout 60
 					<Property Name="numTypedefs" Type="UInt">0</Property>
 					<Property Name="type" Type="Str">Industrial</Property>
 					<Property Name="typeDesc" Type="Bin">(1!!!"%!A!A!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!</Property>
-				</Item>
-				<Item Name="DO4" Type="Variable">
-					<Property Name="featurePacks" Type="Str">Industrial</Property>
-					<Property Name="Industrial:BufferingEnabled" Type="Str">False</Property>
-					<Property Name="Industrial:ChannelIndex" Type="Str">4</Property>
-					<Property Name="Industrial:IODirection" Type="Str">Output</Property>
-					<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
-					<Property Name="Industrial:Mode" Type="Str">1</Property>
-					<Property Name="Industrial:PhysicalName" Type="Str">DO4</Property>
-					<Property Name="Network:UseBinding" Type="Str">False</Property>
-					<Property Name="Network:UseBuffering" Type="Str">False</Property>
-					<Property Name="numTypedefs" Type="UInt">0</Property>
-					<Property Name="type" Type="Str">Industrial</Property>
-					<Property Name="typeDesc" Type="Bin">&amp;1!!!"%!A!A!!!!"!!1!)1!"!!!!!!!!!!</Property>
 				</Item>
 				<Item Name="DO5" Type="Variable">
 					<Property Name="featurePacks" Type="Str">Industrial</Property>
@@ -5020,7 +5024,12 @@ KeepAliveTimeout 60
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FB Overlay DBL.ctl" Type="VI" URL="/&lt;vilib&gt;/functionblocks/FB Property/FB Overlay DBL.ctl"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="B2G1_rt_vars.ctl" Type="VI" URL="../B2G1_rt_vars.ctl"/>
+			<Item Name="SQL Query.vi" Type="VI" URL="../lv_sqlite_103/SQL Query.vi"/>
+			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="B2G1" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
