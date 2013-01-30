@@ -385,6 +385,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ctls" Type="Folder">
+			<Item Name="B2G2_host_db_log_vars.ctl" Type="VI" URL="../B2G2_host_db_log_vars.ctl"/>
+			<Item Name="Regelventil.ctl" Type="VI" URL="../Regelventil.ctl"/>
 			<Item Name="valve_h.ctl" Type="VI" URL="../valve_h.ctl"/>
 			<Item Name="Tank.ctl" Type="VI" URL="../Tank.ctl"/>
 			<Item Name="MR.ctl" Type="VI" URL="../MR.ctl"/>
@@ -487,8 +489,8 @@
 			</Item>
 			<Item Name="UiDBCharts.vi" Type="VI" URL="../UiDBCharts.vi"/>
 			<Item Name="UiMonitor.vi" Type="VI" URL="../UiMonitor.vi"/>
-			<Item Name="UiStdControl_b2g1.vi" Type="VI" URL="../UiStdControl_b2g1.vi"/>
-			<Item Name="UiStdControl_b2g2.vi" Type="VI" URL="../UiStdControl_b2g2.vi"/>
+			<Item Name="B2G1_UiStdControl.vi" Type="VI" URL="../B2G1_UiStdControl.vi"/>
+			<Item Name="B2G2_UiStdControl.vi" Type="VI" URL="../B2G2_UiStdControl.vi"/>
 			<Item Name="UiStdControl_gm.vi" Type="VI" URL="../UiStdControl_gm.vi"/>
 			<Item Name="B2G2_host_db_logging.vi" Type="VI" URL="../B2G2_host_db_logging.vi"/>
 			<Item Name="B2G1_host_db_logging.vi" Type="VI" URL="../B2G1_host_db_logging.vi"/>
@@ -499,7 +501,6 @@
 			<Item Name="B2G_db_rz.dsn" Type="Document" URL="../B2G_db_rz.dsn"/>
 			<Item Name="B2G_db_rz_ro.dsn" Type="Document" URL="../B2G_db_rz_ro.dsn"/>
 		</Item>
-		<Item Name="B2G2_host_db_log_vars.ctl" Type="VI" URL="../B2G2_host_db_log_vars.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
@@ -685,7 +686,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{2D814974-CAEC-4594-97F2-BF4D1136EBB0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/UiStdControl_b2g1.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/B2G1_UiStdControl.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/dsn</Property>
@@ -724,7 +725,7 @@
 				<Property Name="SourceCount" Type="Int">13</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">UiStandard</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">12</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">13</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B0E98F60-AAA5-4FF4-938E-F167B77A0F1C}</Property>
@@ -751,10 +752,10 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2D814974-CAEC-4594-97F2-BF4D1136EBB0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{40874838-7939-4EBE-9B61-B35B78C1C57C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/UiStdControl_b2g1.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/B2G1_UiStdControl.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
@@ -762,7 +763,7 @@
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/vis/UiStdControl_b2g2.vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/vis/B2G2_UiStdControl.vi</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/vis/ui/UiControls_b2g2.vi</Property>
@@ -836,7 +837,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{2D814974-CAEC-4594-97F2-BF4D1136EBB0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/UiStdControl_b2g1.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/B2G1_UiStdControl.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ctls</Property>
@@ -859,7 +860,7 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">15</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">16</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1F10DB52-1358-46F1-BC5D-75F927E68DA6}</Property>
@@ -967,7 +968,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{126569E1-05C0-4174-BA1B-86DACAA051C5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/UiStdControl_b2g1.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/B2G1_UiStdControl.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/vis/ui/UiControls_b2g1.vi</Property>
@@ -1186,7 +1187,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{126569E1-05C0-4174-BA1B-86DACAA051C5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/UiStdControl_b2g1.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/B2G1_UiStdControl.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ctls</Property>
@@ -1243,7 +1244,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{01A450F7-0E41-469B-8850-7D40C0D937A3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/UiStdControl_b2g1.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/B2G1_UiStdControl.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ctls</Property>
@@ -1329,13 +1330,13 @@
 				<Property Name="Source[0].itemID" Type="Str">{01A450F7-0E41-469B-8850-7D40C0D937A3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/UiStdControl_b2g1.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/B2G1_UiStdControl.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/vis/ui/UiSchematic_b2g1.vi</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/vis/UiStdControl_b2g2.vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/vis/B2G2_UiStdControl.vi</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
@@ -3353,7 +3354,6 @@ KeepAliveTimeout 60
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -3391,10 +3391,21 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
 		<Item Name="ctl" Type="Folder">
+			<Item Name="B2G1_nd_vars.ctl" Type="VI" URL="../B2G1_nd_vars.ctl"/>
+			<Item Name="B2G1_rt_vars.ctl" Type="VI" URL="../B2G1_rt_vars.ctl"/>
 			<Item Name="Input - Cluster b2g1.ctl" Type="VI" URL="../Input - Cluster b2g1.ctl"/>
 			<Item Name="Output - Cluster b2g1.ctl" Type="VI" URL="../Output - Cluster b2g1.ctl"/>
 		</Item>
+		<Item Name="sqlite" Type="Folder">
+			<Item Name="SQL Query.vi" Type="VI" URL="../lv_sqlite_103/SQL Query.vi"/>
+			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
+		</Item>
 		<Item Name="vi" Type="Folder">
+			<Item Name="B2G1_sqlite_createtable.vi" Type="VI" URL="../B2G1_sqlite_createtable.vi"/>
+			<Item Name="b2g1_sqlite_log_feedflash.vi" Type="VI" URL="../b2g1_sqlite_log_feedflash.vi"/>
+			<Item Name="b2g1_sqlite_log_time.vi" Type="VI" URL="../b2g1_sqlite_log_time.vi"/>
+			<Item Name="b2g1_sqlite_write_time.vi" Type="VI" URL="../b2g1_sqlite_write_time.vi"/>
+			<Item Name="b2g_sqlite_write_feedflash.vi" Type="VI" URL="../b2g_sqlite_write_feedflash.vi"/>
 			<Item Name="CirculationCtl.vi" Type="VI" URL="../CirculationCtl.vi"/>
 			<Item Name="DosageCtl.vi" Type="VI" URL="../DosageCtl.vi">
 				<Item Name="PID" Type="IIO Function Block">
@@ -3440,8 +3451,6 @@ KeepAliveTimeout 60
 			<Item Name="WriteIOSafeCondition b2g1.vi" Type="VI" URL="../WriteIOSafeCondition b2g1.vi"/>
 			<Item Name="WriteIOValues b2g1.vi" Type="VI" URL="../WriteIOValues b2g1.vi"/>
 		</Item>
-		<Item Name="B2G1_sqlite_createtable.vi" Type="VI" URL="../B2G1_sqlite_createtable.vi"/>
-		<Item Name="b2g1_sqlite_write_time.vi" Type="VI" URL="../b2g1_sqlite_write_time.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -5027,9 +5036,6 @@ KeepAliveTimeout 60
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="B2G1_rt_vars.ctl" Type="VI" URL="../B2G1_rt_vars.ctl"/>
-			<Item Name="SQL Query.vi" Type="VI" URL="../lv_sqlite_103/SQL Query.vi"/>
-			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="B2G1" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -5126,10 +5132,17 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
 		<Item Name="ctl" Type="Folder">
+			<Item Name="B2G2_nd_vars.ctl" Type="VI" URL="../B2G2_nd_vars.ctl"/>
+			<Item Name="B2G2_rt_vars.ctl" Type="VI" URL="../B2G2_rt_vars.ctl"/>
 			<Item Name="Input - Cluster b2g2.ctl" Type="VI" URL="../Input - Cluster b2g2.ctl"/>
 			<Item Name="Output - Cluster b2g1.ctl" Type="VI" URL="../Output - Cluster b2g1.ctl"/>
 		</Item>
 		<Item Name="vi" Type="Folder">
+			<Item Name="B2G2_sqlite_createtable.vi" Type="VI" URL="../B2G2_sqlite_createtable.vi"/>
+			<Item Name="b2g2_sqlite_log_feedflash.vi" Type="VI" URL="../b2g2_sqlite_log_feedflash.vi"/>
+			<Item Name="b2g2_sqlite_log_time.vi" Type="VI" URL="../b2g2_sqlite_log_time.vi"/>
+			<Item Name="b2g2_sqlite_write_time.vi" Type="VI" URL="../b2g2_sqlite_write_time.vi"/>
+			<Item Name="b2g_sqlite_write_feedflash.vi" Type="VI" URL="../b2g_sqlite_write_feedflash.vi"/>
 			<Item Name="CirculationCtl.vi" Type="VI" URL="../CirculationCtl.vi"/>
 			<Item Name="cluster-head-to-file.vi" Type="VI" URL="../cluster-head-to-file.vi"/>
 			<Item Name="DosageCtl.vi" Type="VI" URL="../DosageCtl.vi">
@@ -6535,38 +6548,12 @@ KeepAliveTimeout 60
 		<Item Name="variables - b2g2.lvlib" Type="Library" URL="../variables - b2g2.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="FB Overlay DBL.ctl" Type="VI" URL="/&lt;vilib&gt;/functionblocks/FB Property/FB Overlay DBL.ctl"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="SQL Query.vi" Type="VI" URL="../lv_sqlite_103/SQL Query.vi"/>
+			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="B2G2" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
