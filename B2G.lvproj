@@ -460,6 +460,7 @@
 				<Item Name="DBSensorDataToArray.vi" Type="VI" URL="../DBSensorDataToArray.vi"/>
 				<Item Name="DBSqlSelectToArray(1DArrayClusterStringInt).vi" Type="VI" URL="../DBSqlSelectToArray(1DArrayClusterStringInt).vi"/>
 				<Item Name="db_plant.id_to_sensors.vi" Type="VI" URL="../db_plant.id_to_sensors.vi"/>
+				<Item Name="sqlite_generate_sql_insert_time.vi" Type="VI" URL="../sqlite_generate_sql_insert_time.vi"/>
 			</Item>
 			<Item Name="maihak" Type="Folder">
 				<Item Name="SM_S700_Connect.vi" Type="VI" URL="../SM_S700_Connect.vi"/>
@@ -615,6 +616,7 @@
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -860,11 +862,93 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">16</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">17</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1F10DB52-1358-46F1-BC5D-75F927E68DA6}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">B2G2_host_db_logging.exe</Property>
+			</Item>
+			<Item Name="B2G2_UiStdControl" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{3F88153D-5BFB-482E-8B6D-8323479DF2A1}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{2FE63D17-1DB8-4209-8598-4AE8458FDF64}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{09CBFA5B-D769-4491-BD39-393D9EC7E3A2}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">B2G2_UiStdControl</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{2079A4F6-E056-4A49-9ADA-31805A9E0C8A}</Property>
+				<Property Name="Destination[0].destName" Type="Str">B2G2_UiStdControl.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/B2G2_UiStdControl.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{79505000-0D05-4F34-BC02-F7012050E8D9}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/B2G1_UiStdControl.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/vis/ui/UiSchematic_b2g1.vi</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/vis/B2G2_UiStdControl.vi</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/vis/ui/UiControls_b2g2.vi</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/vis/ui/UiCharts_b2g2.vi</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/vis/ui/UiSchematic_b2g2.vi</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/vis/ui/GetSetCtrls.vi</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/vis/ui/UiControls_b2g1.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/vis/ui/UiCharts_b2g1.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/vis/ui/UiSchematic.vi</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/ctls</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/dsn/B2G_db_local.dsn</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/dsn/B2G_db_rz.dsn</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/dsn</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/vis</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">UiStandard</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">UiStandard</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
+				<Property Name="TgtF_productName" Type="Str">UiStandard</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{4A113C4B-E893-4BDC-A8CB-2DCFCABFCB46}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">B2G2_UiStdControl.exe</Property>
 			</Item>
 			<Item Name="DB_input_B2G1_MR_gas_meas" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -1305,88 +1389,6 @@
 				<Property Name="TgtF_productName" Type="Str">UiSchematic_gas</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{CB7816CC-BFBF-493E-96A1-D18071AFD8BB}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">UiSchematic_gas.exe</Property>
-			</Item>
-			<Item Name="UiStdControl_b2g2" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{3F88153D-5BFB-482E-8B6D-8323479DF2A1}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{2FE63D17-1DB8-4209-8598-4AE8458FDF64}</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{09CBFA5B-D769-4491-BD39-393D9EC7E3A2}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">UiStdControl_b2g2</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{2079A4F6-E056-4A49-9ADA-31805A9E0C8A}</Property>
-				<Property Name="Destination[0].destName" Type="Str">UiStdControl_b2g2_1.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/UiStdControl_b2g2_1.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{01A450F7-0E41-469B-8850-7D40C0D937A3}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/B2G1_UiStdControl.vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/vis/ui/UiSchematic_b2g1.vi</Property>
-				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/vis/B2G2_UiStdControl.vi</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/vis/ui/UiControls_b2g2.vi</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/vis/ui/UiCharts_b2g2.vi</Property>
-				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/vis/ui/UiSchematic_b2g2.vi</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/vis/ui/GetSetCtrls.vi</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/vis/ui/UiControls_b2g1.vi</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/vis/ui/UiCharts_b2g1.vi</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/vis/ui/UiSchematic.vi</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/ctls</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/dsn/B2G_db_local.dsn</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/dsn/B2G_db_rz.dsn</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/dsn</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/vis</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">16</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">UiStandard</Property>
-				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
-				<Property Name="TgtF_internalName" Type="Str">UiStandard</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
-				<Property Name="TgtF_productName" Type="Str">UiStandard</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{4A113C4B-E893-4BDC-A8CB-2DCFCABFCB46}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">UiStdControl_b2g2_1.exe</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -3295,6 +3297,7 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="limit_array_size.vi" Type="VI" URL="../limit_array_size.vi"/>
+			<Item Name="sqlite_generate_sql_insert_time.vi" Type="VI" URL="../sqlite_generate_sql_insert_time.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GM" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -5036,6 +5039,7 @@ KeepAliveTimeout 60
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="sqlite_generate_sql_insert_time.vi" Type="VI" URL="../sqlite_generate_sql_insert_time.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="B2G1" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -5136,6 +5140,10 @@ KeepAliveTimeout 60
 			<Item Name="B2G2_rt_vars.ctl" Type="VI" URL="../B2G2_rt_vars.ctl"/>
 			<Item Name="Input - Cluster b2g2.ctl" Type="VI" URL="../Input - Cluster b2g2.ctl"/>
 			<Item Name="Output - Cluster b2g1.ctl" Type="VI" URL="../Output - Cluster b2g1.ctl"/>
+		</Item>
+		<Item Name="sqlite" Type="Folder">
+			<Item Name="SQL Query.vi" Type="VI" URL="../lv_sqlite_103/SQL Query.vi"/>
+			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
 		</Item>
 		<Item Name="vi" Type="Folder">
 			<Item Name="B2G2_sqlite_createtable.vi" Type="VI" URL="../B2G2_sqlite_createtable.vi"/>
@@ -6548,12 +6556,39 @@ KeepAliveTimeout 60
 		<Item Name="variables - b2g2.lvlib" Type="Library" URL="../variables - b2g2.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="FB Overlay DBL.ctl" Type="VI" URL="/&lt;vilib&gt;/functionblocks/FB Property/FB Overlay DBL.ctl"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="SQL Query.vi" Type="VI" URL="../lv_sqlite_103/SQL Query.vi"/>
-			<Item Name="sqlitewrapper.dll" Type="Document" URL="../lv_sqlite_103/SQLite Source/CVI RT/sqlitewrapper.dll"/>
+			<Item Name="sqlite_generate_sql_insert_time.vi" Type="VI" URL="../sqlite_generate_sql_insert_time.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="B2G2" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
