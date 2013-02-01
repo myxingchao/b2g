@@ -8,6 +8,7 @@
 	<Property Name="varPersistentID:{02C9CF87-D3A3-442F-AC27-1A69AFB23727}" Type="Ref">/cRIO gm/vi/ReadIOValues gas.vi/GZ-1 Volume/done</Property>
 	<Property Name="varPersistentID:{02DA5E82-7794-45C1-BC4C-2AE9E5DE8DF4}" Type="Ref">/cRIO gm/variables - gm.lvlib/stop - network gm</Property>
 	<Property Name="varPersistentID:{032E7B9A-7C7A-4437-91F0-D897CEE6BAAD}" Type="Ref">/cRIO gm/Chassis/DI1/DI9</Property>
+	<Property Name="varPersistentID:{055BC7C8-D319-49F4-8ED7-FA9D92076E91}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/reinitialize? (F)</Property>
 	<Property Name="varPersistentID:{05ED13D2-6383-4E6F-927E-8DB59CDED8AF}" Type="Ref">/cRIO gm/Chassis/DI2/B2G1 HR V1.1 1</Property>
 	<Property Name="varPersistentID:{06277CB5-B41A-40EF-8B09-2C5F73852DC8}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO4</Property>
 	<Property Name="varPersistentID:{06676D80-3F08-407B-9280-12E466D3DC31}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO8</Property>
@@ -15,6 +16,8 @@
 	<Property Name="varPersistentID:{07CBE86F-6881-4ADF-956D-A365D3A02D2B}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO30</Property>
 	<Property Name="varPersistentID:{084EAB9A-E736-4231-8960-6ADFCBA2D6F4}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO14</Property>
 	<Property Name="varPersistentID:{08ED4852-3E0D-4C70-A5C5-903B53263D28}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 DFS1</Property>
+	<Property Name="varPersistentID:{098DEA6A-28DA-4956-AC09-6870A33CEE77}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/auto? (T)</Property>
+	<Property Name="varPersistentID:{09AC9675-E357-46AF-8190-16949C3AC8A2}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/error out</Property>
 	<Property Name="varPersistentID:{0AB9F275-488F-4DAB-849B-772E4CC3536D}" Type="Ref">/My Computer/vis/datadashboard/data_dashboard_variables.lvlib/B2G1 TS-4 [°C]</Property>
 	<Property Name="varPersistentID:{0AD9BC3C-F272-4709-90F5-035DE62A8F9C}" Type="Ref">/cRIO b2g1/Chassis/AII1/B2G1 TS5</Property>
 	<Property Name="varPersistentID:{0B718E6D-8C59-4563-A343-D4AEE27B7AA9}" Type="Ref">/cRIO b2g2/Chassis/AOU1/B2G2 V13</Property>
@@ -29,6 +32,7 @@
 	<Property Name="varPersistentID:{11C1B910-4CC5-4101-9E2B-240A2039D771}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI24</Property>
 	<Property Name="varPersistentID:{11CA62BA-6D71-4C9F-92C5-B5CAD4F73B4E}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/linearity</Property>
 	<Property Name="varPersistentID:{1246ABA8-0783-49D0-B9F9-1FB1F5A8C32D}" Type="Ref">/cRIO gm/Chassis/AI1/AI1</Property>
+	<Property Name="varPersistentID:{12987D06-33E1-4505-8C62-4A0F65E74ED9}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/proportional gain (Kc)</Property>
 	<Property Name="varPersistentID:{159D1865-96EB-47EE-BA04-6D03EC6C49B7}" Type="Ref">/cRIO gm/Chassis/DO/GM V-5</Property>
 	<Property Name="varPersistentID:{15A8917A-53CF-4523-B5CB-EDBC30D6783A}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO21</Property>
 	<Property Name="varPersistentID:{173C4294-50E9-4434-A2D1-701DEDA4563B}" Type="Ref">/cRIO gm/Chassis/DO/B2G2 T-2 V-1, V-1.1</Property>
@@ -42,6 +46,7 @@
 	<Property Name="varPersistentID:{1A776AFC-4233-4393-9953-F6FBF9E53FB5}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI28</Property>
 	<Property Name="varPersistentID:{1B31E6D4-0B88-444D-9F5F-58BA8C6466C5}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/derivative time (Td, min)</Property>
 	<Property Name="varPersistentID:{1B4B68B4-AB69-4112-8741-C91825157E19}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO18</Property>
+	<Property Name="varPersistentID:{1B5E8289-EFF8-45BC-97B7-622A7049ADF1}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/auto? (T)</Property>
 	<Property Name="varPersistentID:{1B5FCED3-E9B7-40D7-A3D6-17F4F90A4684}" Type="Ref">/cRIO gm/Chassis/DI1/B2G2 T-2 V-1 0</Property>
 	<Property Name="varPersistentID:{1BD250F3-612A-4060-ACF8-A2D3F9508C4D}" Type="Ref">/cRIO gm/Chassis/DI2/Fab2 HR V-1 0</Property>
 	<Property Name="varPersistentID:{1CE78700-531B-4A24-8C39-CECA8917B7EC}" Type="Ref">/cRIO gm/Chassis/AI1/GM GA-1 ch4</Property>
@@ -55,7 +60,9 @@
 	<Property Name="varPersistentID:{2232FC05-FE55-4027-86B3-5756876F10E1}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/setpoint high</Property>
 	<Property Name="varPersistentID:{22FA3FB2-FD19-47FA-A01B-3DD25C5C9533}" Type="Ref">/cRIO b2g2/Chassis/AOU1/B2G2 P4 speed</Property>
 	<Property Name="varPersistentID:{2313B143-1FBA-49B5-8145-5DA977AFA69E}" Type="Ref">/cRIO gm/Chassis/AI1/GM TS-1</Property>
+	<Property Name="varPersistentID:{233EF773-A69B-46F6-9F22-3914D1EC7382}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/error out</Property>
 	<Property Name="varPersistentID:{2363AD2A-57C3-43DD-A461-4F2DCAA23AD8}" Type="Ref">/cRIO gm/variables - gm.lvlib/data - RT gm</Property>
+	<Property Name="varPersistentID:{236BD917-E0D2-4E95-8E7E-FC1FB6196AC3}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/output</Property>
 	<Property Name="varPersistentID:{23F1A839-7C71-4DAF-9189-DDEC39299E15}" Type="Ref">/cRIO b2g2/Chassis/AII1/B2G2 DS1</Property>
 	<Property Name="varPersistentID:{245E9D34-7D49-4CF3-9ADF-D343F8A5B9F8}" Type="Ref">/cRIO gm/Chassis/DI2/Fab2 HR V1.1 0</Property>
 	<Property Name="varPersistentID:{2467A711-0C15-4397-BE79-01D11B13AC40}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 P4 RUN</Property>
@@ -70,11 +77,14 @@
 	<Property Name="varPersistentID:{2634185D-2A94-43C7-BBCE-7AAD48DDD183}" Type="Ref">/cRIO b2g1/vi/ReadIOValues b2g1.vi/DFS-1 Volume/error out</Property>
 	<Property Name="varPersistentID:{264F0A48-8E96-418F-853D-4EC52C931448}" Type="Ref">/cRIO gm/vi/ReadIOValues gas.vi/GZ-1 Volume/error out</Property>
 	<Property Name="varPersistentID:{26807686-F5AC-4985-AC3B-A07EFD12A82D}" Type="Ref">/cRIO b2g2/Chassis/AII1/AI12</Property>
+	<Property Name="varPersistentID:{26C47209-E9D9-4215-A02C-0E3BAE123CBF}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/setpoint</Property>
 	<Property Name="varPersistentID:{279D56CF-28C6-4819-BA8C-A530831B1607}" Type="Ref">/cRIO b2g1/Chassis/AOU1/B2G1 P-5</Property>
 	<Property Name="varPersistentID:{27D6A233-1D02-4654-B36C-D5718D8C00AE}" Type="Ref">/cRIO b2g2/Chassis/AII1/B2G2 DFS1</Property>
+	<Property Name="varPersistentID:{27DEBF2E-716B-4135-B8BB-188204467457}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/linearity</Property>
 	<Property Name="varPersistentID:{28196041-A48E-4662-B821-9B2A86DCAE1C}" Type="Ref">/cRIO gm/Chassis/DO/DO28</Property>
 	<Property Name="varPersistentID:{29A27E59-591F-417E-8339-27657AC110E3}" Type="Ref">/cRIO gm/Chassis/DI2/Fab1 HR V1.1 1</Property>
 	<Property Name="varPersistentID:{2A918E35-DC25-449B-87BE-30A39CD25550}" Type="Ref">/cRIO b2g1/Chassis/AOU1/AO6</Property>
+	<Property Name="varPersistentID:{2C38C267-4141-43D9-BC40-0EB10C67ED6F}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/setpoint high</Property>
 	<Property Name="varPersistentID:{2CC4B00B-5829-4F43-A1B6-84B3C9D5794A}" Type="Ref">/cRIO b2g2/Chassis/AII1/AI8</Property>
 	<Property Name="varPersistentID:{2DBD1745-545C-4937-9B1B-4A62E9A60884}" Type="Ref">/cRIO gm/Chassis/DI1/DI5</Property>
 	<Property Name="varPersistentID:{2DEDF469-3938-4CF2-8D96-F412719A5C00}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI30</Property>
@@ -92,10 +102,12 @@
 	<Property Name="varPersistentID:{368287AD-59E5-4526-9902-BECB396F532A}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI30</Property>
 	<Property Name="varPersistentID:{396A0147-C3AE-40BF-89C6-F7521B91BD05}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/output</Property>
 	<Property Name="varPersistentID:{399B5C8D-5E93-4154-9E0B-A48FEBC6E7E9}" Type="Ref">/cRIO gm/Chassis/DI2/B2G2 T2 V1.1 0</Property>
+	<Property Name="varPersistentID:{3A720EC1-E6F7-4E07-A945-F0BB988D20CA}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/output low</Property>
 	<Property Name="varPersistentID:{3C5E4AD7-1416-470B-9541-96FD03DFAD48}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI28</Property>
 	<Property Name="varPersistentID:{3C9B0EB7-C0A3-45E7-804A-12C148F31C6F}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V14 1</Property>
 	<Property Name="varPersistentID:{3D44E330-3C79-45DF-A872-38929C534916}" Type="Ref">/cRIO gm/Chassis/DI1/DI13</Property>
 	<Property Name="varPersistentID:{3DEC28CD-F1E9-41D3-9DEB-D8E1EE6638B8}" Type="Ref">/cRIO b2g2/variables - b2g2.lvlib/stop - network b2g2</Property>
+	<Property Name="varPersistentID:{3E1ECEF0-3876-48F5-99BD-DA774FA81F00}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/dt (s)</Property>
 	<Property Name="varPersistentID:{3EE38296-7D38-47F2-A568-9F2A58C566CE}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO15</Property>
 	<Property Name="varPersistentID:{3F502225-927D-4EFF-BB31-5150EEEF1F24}" Type="Ref">/cRIO gm/Chassis/DO/Fab1 MR V-1, V-1.1</Property>
 	<Property Name="varPersistentID:{410DAFE9-9AB8-4DF6-85BC-36073E18D1CC}" Type="Ref">/cRIO gm/Chassis/DI2/GA V-3 1</Property>
@@ -110,16 +122,19 @@
 	<Property Name="varPersistentID:{467E7C70-EAF3-4FE0-AA3D-B15C491DCE73}" Type="Ref">/cRIO gm/Chassis/DI2/Fab1 MR V1.1 0</Property>
 	<Property Name="varPersistentID:{46A6C886-D33A-420B-9329-368AA86FFE6A}" Type="Ref">/cRIO gm/Chassis/DI1/DI7</Property>
 	<Property Name="varPersistentID:{4708E5D1-DE4F-40F3-9D3E-3F8F03FAF28B}" Type="Ref">/cRIO gm/Chassis/AI1/GM GA-1 h2</Property>
+	<Property Name="varPersistentID:{4791F1E4-0990-4331-8AA8-1C73AE1B5E81}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/manual control</Property>
 	<Property Name="varPersistentID:{48373199-5D98-44FE-8831-45FC192226D0}" Type="Ref">/cRIO gm/Chassis/DI1/DI3</Property>
 	<Property Name="varPersistentID:{48C1D717-E84D-43BC-9939-42595FD9974C}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/process variable</Property>
 	<Property Name="varPersistentID:{4958C45E-A16A-46C7-83E3-EE2BA63C1572}" Type="Ref">/cRIO b2g1/Chassis/AOU1/AO15</Property>
 	<Property Name="varPersistentID:{49BA91EF-1E5A-45D0-8A3A-5BC022545592}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/integral time (Ti, min)</Property>
 	<Property Name="varPersistentID:{49BB1EE4-3238-4A4D-921B-301E46C381BE}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 V10 0</Property>
 	<Property Name="varPersistentID:{4A3A50B6-9D30-46EB-8D99-2666C074AC7F}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI21</Property>
+	<Property Name="varPersistentID:{4AE2F085-84F6-435A-8EE4-3248A110EE26}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/output</Property>
 	<Property Name="varPersistentID:{4BC96873-E02D-4046-84A5-E4D130CD14FB}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/error in</Property>
 	<Property Name="varPersistentID:{4D52850B-3445-40F7-AAB0-393FC80E12C1}" Type="Ref">/cRIO b2g1/Chassis/DO1/B2G1 HS2</Property>
 	<Property Name="varPersistentID:{4DC8ECFB-2423-432E-B9E2-B94B9807F19C}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI31</Property>
 	<Property Name="varPersistentID:{4E55432A-C72C-4CBD-90F8-E50D2C270D97}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/setpoint</Property>
+	<Property Name="varPersistentID:{4E9962A2-677A-40C9-8A37-13492E4C1E3F}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/proportional gain (Kc)</Property>
 	<Property Name="varPersistentID:{4EB3BF85-969A-4687-84C4-D42931D0090E}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI29</Property>
 	<Property Name="varPersistentID:{4F10E72F-D759-4418-ABC4-2348B6EA539C}" Type="Ref">/cRIO b2g1/Chassis/AOU1/AO10</Property>
 	<Property Name="varPersistentID:{4F242117-B122-45CB-8641-991751F6DDBC}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 V14 1</Property>
@@ -139,10 +154,12 @@
 	<Property Name="varPersistentID:{547D5D64-17DF-4232-A860-477329B123CB}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO16</Property>
 	<Property Name="varPersistentID:{54964997-CC46-4C73-96FE-69F9161702C1}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO12</Property>
 	<Property Name="varPersistentID:{54EACDDF-2537-45A1-9D15-A25D29AFACCA}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI14</Property>
+	<Property Name="varPersistentID:{555FBA47-B9F9-4A9C-9F68-FB587B360516}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/beta</Property>
 	<Property Name="varPersistentID:{573B0466-5E7E-403C-9480-E99DEB25801F}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V34 1</Property>
 	<Property Name="varPersistentID:{577CFA27-5286-4C14-885A-79240755F41F}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO26</Property>
 	<Property Name="varPersistentID:{57A77ECB-18AD-42EF-89C4-0C1FD0623E04}" Type="Ref">/cRIO gm/Chassis/DI2/B2G2 T2 V1.1 1</Property>
 	<Property Name="varPersistentID:{581B9FB7-BE6C-4C33-9A87-E80C10CBFD23}" Type="Ref">/cRIO gm/Chassis/DI1/B2G1 T-2 V-1 0</Property>
+	<Property Name="varPersistentID:{58FF534B-C5A2-47A4-BE49-B3A43D83E2AB}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/setpoint low</Property>
 	<Property Name="varPersistentID:{59F55B4E-56DF-43AC-8CEF-A23B1EBA9806}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO7</Property>
 	<Property Name="varPersistentID:{5A198364-9C3A-4520-BBEE-2F0C34400812}" Type="Ref">/cRIO b2g2/vi/ReadIOValues b2g2.vi/DFS-1 Volume/error in</Property>
 	<Property Name="varPersistentID:{5AD0D24B-7F8F-4E7C-952A-483507232B61}" Type="Ref">/cRIO b2g2/vi/ReadIOValues b2g2.vi/DFS-1 Volume/preset value</Property>
@@ -156,6 +173,7 @@
 	<Property Name="varPersistentID:{60FCFE79-A11F-4613-98B3-EF835B2CB899}" Type="Ref">/cRIO b2g1/Chassis/AOU1/AO13</Property>
 	<Property Name="varPersistentID:{61A5E5B8-ACDC-4BE3-AD1C-335B77A2F6CD}" Type="Ref">/cRIO gm/Chassis/DI1/DI2</Property>
 	<Property Name="varPersistentID:{630A670D-7DF5-4730-A815-F77C35CACCA0}" Type="Ref">/cRIO gm/Chassis/DO/DO1</Property>
+	<Property Name="varPersistentID:{63107F1A-9A77-40FC-AE55-0174D40E9F1A}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/beta</Property>
 	<Property Name="varPersistentID:{65891DEC-1AC7-4858-9ED6-DF9CBE47F03D}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/output</Property>
 	<Property Name="varPersistentID:{65C1C55C-E73A-4F2A-BB05-1CDB5F13CF26}" Type="Ref">/cRIO b2g1/vi/ReadIOValues b2g1.vi/DFS-1 Volume/preset value</Property>
 	<Property Name="varPersistentID:{65DD96F2-507E-4CD5-8221-54DC7A57C13C}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI13</Property>
@@ -163,6 +181,7 @@
 	<Property Name="varPersistentID:{6783D1B1-AD02-4517-8192-B87347E64594}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI19</Property>
 	<Property Name="varPersistentID:{67BB92DF-0BDE-4435-B454-C08D963D1D7F}" Type="Ref">/cRIO b2g2/Chassis/AII1/AI14</Property>
 	<Property Name="varPersistentID:{686EC565-78CD-401A-A329-AD4EC3E084CE}" Type="Ref">/cRIO gm/variables - gm.lvlib/input - RT gm</Property>
+	<Property Name="varPersistentID:{68B44636-FC01-4124-83E1-E6C337D6F35B}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/setpoint</Property>
 	<Property Name="varPersistentID:{6A8F68D4-C011-46CA-B555-F38CF48F86A4}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI31</Property>
 	<Property Name="varPersistentID:{6ACAF18E-6AD7-47B6-B278-1DF9F9BBBBD2}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO10</Property>
 	<Property Name="varPersistentID:{6C7651FC-04F5-4684-90E5-FF2AE0AA3CAA}" Type="Ref">/cRIO b2g2/Chassis/DO1/B2G2 V10</Property>
@@ -173,12 +192,15 @@
 	<Property Name="varPersistentID:{6E5A1BF0-FB22-464C-8327-DB1CC0C0405A}" Type="Ref">/cRIO gm/Chassis/DO/DO9</Property>
 	<Property Name="varPersistentID:{6F2607CD-CFEE-4AC1-AE7A-87A9C0AC2754}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V33 1</Property>
 	<Property Name="varPersistentID:{7140B04D-57CF-4A9F-A96C-BC7D7F3ED229}" Type="Ref">/cRIO b2g2/Chassis/AII1/AI7</Property>
+	<Property Name="varPersistentID:{716F0EDD-0E8D-43DE-B62F-94F62BB3A937}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/reinitialize? (F)</Property>
 	<Property Name="varPersistentID:{719A7B58-F5C1-47B5-9E32-BF46536AE39E}" Type="Ref">/cRIO b2g1/Chassis/AII1/B2G1 FS-2</Property>
 	<Property Name="varPersistentID:{726C5D04-027B-457D-8122-0F5ACD076F29}" Type="Ref">/cRIO b2g2/variables - b2g2.lvlib/data - RT b2g2</Property>
 	<Property Name="varPersistentID:{72AE7A16-ABC9-4E5C-A270-7796F2807086}" Type="Ref">/cRIO gm/Chassis/DI1/GM GZ-1</Property>
+	<Property Name="varPersistentID:{73A3954C-6828-46CA-9426-57EBE193FDA8}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/error in</Property>
 	<Property Name="varPersistentID:{73BD3E32-9161-4977-8CB7-BEEB44914B53}" Type="Ref">/cRIO gm/Chassis/DI2/B2G1 MR V1.1 0</Property>
 	<Property Name="varPersistentID:{74E1551A-4D68-4E10-BBE1-D479F9F07DBE}" Type="Ref">/cRIO gm/Chassis/DO/GM V-3, V-4</Property>
 	<Property Name="varPersistentID:{75915ECC-0393-472D-90ED-A1E87CFB000F}" Type="Ref">/cRIO b2g1/Chassis/AII1/AI9</Property>
+	<Property Name="varPersistentID:{780A3C5B-E575-4A49-8ADF-49AFEADDE5AA}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/dt out (s)</Property>
 	<Property Name="varPersistentID:{785142BB-1BDD-41E4-AAC1-9937D558F719}" Type="Ref">/cRIO gm/Chassis/DI1/DI12</Property>
 	<Property Name="varPersistentID:{798CC6F0-9673-4D16-98A7-E6972442AF07}" Type="Ref">/cRIO gm/variables - gm.lvlib/stop - RT gm</Property>
 	<Property Name="varPersistentID:{7A938A61-1BD8-4C90-993F-44B9DB1CAC1E}" Type="Ref">/cRIO gm/Chassis/DI1/B2G2 MR V-1 1</Property>
@@ -189,6 +211,7 @@
 	<Property Name="varPersistentID:{7D256DFE-55CF-446F-99E7-D09DB5B847CB}" Type="Ref">/cRIO b2g2/Chassis/AII1/B2G2 TS4</Property>
 	<Property Name="varPersistentID:{7D267767-BF99-47FC-BD06-A5F372D4F567}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/beta</Property>
 	<Property Name="varPersistentID:{7D31CC81-A33C-4126-9842-6F04649F3876}" Type="Ref">/cRIO b2g1/Chassis/DO1/B2G1 HS-1</Property>
+	<Property Name="varPersistentID:{7D3D3CCA-1E72-4608-9B5E-FA42E35BB692}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/process variable</Property>
 	<Property Name="varPersistentID:{7D48F35E-D09E-45BE-A60D-F8DC25986C1F}" Type="Ref">/cRIO gm/Chassis/DI2/B2G1 T2 V1.1 1</Property>
 	<Property Name="varPersistentID:{7D7A1C38-ACF2-4F16-8145-1D2040447DBF}" Type="Ref">/cRIO gm/Chassis/DO/DO5</Property>
 	<Property Name="varPersistentID:{7DBB7E37-5FE2-4DB9-84DF-565F1CEAAF9E}" Type="Ref">/cRIO gm/Chassis/DI1/DI4</Property>
@@ -201,6 +224,7 @@
 	<Property Name="varPersistentID:{820654CE-C993-41E6-AFA3-B938E8D06664}" Type="Ref">/cRIO gm/Chassis/DI1/DI8</Property>
 	<Property Name="varPersistentID:{82344211-3A98-4C95-9D45-FA6ED964710D}" Type="Ref">/cRIO gm/Chassis/DI1/Fab1 MR V-1 0</Property>
 	<Property Name="varPersistentID:{8237D795-6AF7-477F-832F-1D2E3BC8C2BD}" Type="Ref">/cRIO b2g2/Chassis/AII1/AI10</Property>
+	<Property Name="varPersistentID:{8261618A-D5A8-4897-80EA-CF3A1DE4C3AC}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/setpoint high</Property>
 	<Property Name="varPersistentID:{827B1F59-2DC5-47CF-8273-CA023A161974}" Type="Ref">/cRIO b2g2/Chassis/AII1/AI15</Property>
 	<Property Name="varPersistentID:{82FD57D3-DAF9-4A23-A593-22DCBEF352CC}" Type="Ref">/cRIO gm/Chassis/DI2/B2G1 MR V1.1 1</Property>
 	<Property Name="varPersistentID:{83653778-3ED8-49F7-A05D-59D06A391B09}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI27</Property>
@@ -223,12 +247,14 @@
 	<Property Name="varPersistentID:{8CF63FB9-2E62-429A-A035-B7250C26B7DD}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO7</Property>
 	<Property Name="varPersistentID:{8E595080-B929-4C21-9E37-73795589E4C3}" Type="Ref">/cRIO b2g1/Chassis/AII1/AI14</Property>
 	<Property Name="varPersistentID:{900C677A-46D9-43A2-91BA-8BEC7011C9BF}" Type="Ref">/cRIO b2g2/vi/ReadIOValues b2g2.vi/DFS-1 Volume/counter value</Property>
+	<Property Name="varPersistentID:{90C9C49E-6CF5-4488-B2A1-1532AA4704D8}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/dt (s)</Property>
 	<Property Name="varPersistentID:{9109BD44-B4B9-4954-A847-B8DD79EA0856}" Type="Ref">/cRIO b2g1/Chassis/DO1/B2G1 V10</Property>
 	<Property Name="varPersistentID:{9208CF73-9041-4A19-A04D-1AF302799D27}" Type="Ref">/cRIO b2g1/vi/DosageCtl.vi/PID/output low</Property>
 	<Property Name="varPersistentID:{940B194B-A4F3-46B1-8228-7E46C8072C28}" Type="Ref">/cRIO gm/Chassis/DI1/Fab1 MR V-1 1</Property>
 	<Property Name="varPersistentID:{941D3937-9E87-4B51-9B67-5AED45F78B2C}" Type="Ref">/cRIO b2g1/Chassis/DO1/B2G1 V34</Property>
 	<Property Name="varPersistentID:{949A6F83-A372-458B-A829-DF1C99412E1F}" Type="Ref">/cRIO b2g2/Chassis/AOU1/B2G2 V15</Property>
 	<Property Name="varPersistentID:{95AC51E8-AE7A-4DB3-96E1-C3C09CD11D79}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V35 0</Property>
+	<Property Name="varPersistentID:{97F630E5-1FE6-4124-8FBA-33F16B3FCFDA}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/output high</Property>
 	<Property Name="varPersistentID:{9860CC2B-FCA9-47BC-9C06-4469575A6CC2}" Type="Ref">/My Computer/vis/datadashboard/data_dashboard_variables.lvlib/B2G1 FS-3 [l]</Property>
 	<Property Name="varPersistentID:{989A7BCB-E1DB-4B6D-9A07-9D617945203C}" Type="Ref">/cRIO gm/Chassis/DI2/Fab2 HR V-1 1</Property>
 	<Property Name="varPersistentID:{998B982D-75E3-4945-8082-316C717A3C73}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI18</Property>
@@ -240,6 +266,7 @@
 	<Property Name="varPersistentID:{9AA034EF-891A-4875-A50E-88551F8835B4}" Type="Ref">/cRIO gm/Chassis/DO/DO29</Property>
 	<Property Name="varPersistentID:{A04831A9-A9CC-4B5F-B303-459EA9FC2A12}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V14 0</Property>
 	<Property Name="varPersistentID:{A15BB05C-E4FA-4A9C-AF07-84A629A3C596}" Type="Ref">/cRIO b2g1/Chassis/AII1/AI10</Property>
+	<Property Name="varPersistentID:{A20D41B8-E971-4A2A-AFE4-12C683CB3F45}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/linearity</Property>
 	<Property Name="varPersistentID:{A263F9F9-423A-448D-AEAB-C1C60BCE7C57}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/output high</Property>
 	<Property Name="varPersistentID:{A34E6304-21CF-41A8-BB30-FFEEE13B48E2}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI26</Property>
 	<Property Name="varPersistentID:{A449F263-6CCE-4FAC-9A5A-80C538C7B3AD}" Type="Ref">/cRIO gm/vi/ReadIOValues gas.vi/GZ-1 Volume/preset value</Property>
@@ -249,6 +276,7 @@
 	<Property Name="varPersistentID:{A7B5BEEA-AEF9-42F5-9C10-775BC158C2B7}" Type="Ref">/cRIO b2g1/Chassis/AII1/B2G1 FS-3</Property>
 	<Property Name="varPersistentID:{A85EF147-84C2-496B-A022-6E728E57762A}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/integral time (Ti, min)</Property>
 	<Property Name="varPersistentID:{A864CF0C-0DE0-40B6-977A-22C4BEA83D31}" Type="Ref">/cRIO b2g1/Chassis/AII1/B2G1 pHS-1</Property>
+	<Property Name="varPersistentID:{A8EDBE9A-E0CA-4CA1-B5B0-9DEA17C85AD5}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/output high</Property>
 	<Property Name="varPersistentID:{A93E49C5-FA9C-457A-8AE4-3F90C32BA556}" Type="Ref">/cRIO b2g1/Chassis/DI1/DI16</Property>
 	<Property Name="varPersistentID:{A9D57EA1-A23F-4326-ADFF-0A634DA760B8}" Type="Ref">/cRIO gm/Chassis/DI1/manual operation</Property>
 	<Property Name="varPersistentID:{AA6D6C81-2BB8-4A89-ADC1-526C86AB6F4B}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 V34 1</Property>
@@ -256,8 +284,12 @@
 	<Property Name="varPersistentID:{ABBF28EB-FD73-42B4-8665-2C233D0D5CC5}" Type="Ref">/cRIO gm/Chassis/DI1/Fab1 HR V-1 1</Property>
 	<Property Name="varPersistentID:{AC899BA3-AA85-4883-BFC3-ABF84E00C5AA}" Type="Ref">/cRIO b2g1/Chassis/AII1/B2G1 TS-6</Property>
 	<Property Name="varPersistentID:{AD02FDAC-0D1E-4A73-87BA-2861AFD043F0}" Type="Ref">/cRIO gm/Chassis/AI1/GM DS-1</Property>
+	<Property Name="varPersistentID:{AD332408-D7D8-4FDA-98B7-53532E05BAD6}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/integral time (Ti, min)</Property>
+	<Property Name="varPersistentID:{AD38631E-37BA-44FD-A5C0-F241BE6A6CFE}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/integral time (Ti, min)</Property>
+	<Property Name="varPersistentID:{AD67C469-BB37-4F8F-BEA6-A0CD4183C193}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/output low</Property>
 	<Property Name="varPersistentID:{ADF4E957-32EC-428C-8BDF-A178DAFA7A3C}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/output low</Property>
 	<Property Name="varPersistentID:{AE3DC54E-5796-444A-A04B-B5451374597F}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI15</Property>
+	<Property Name="varPersistentID:{AEB91CB5-5EC0-45C4-ABC2-881A59FBE9C1}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/process variable</Property>
 	<Property Name="varPersistentID:{AEEBDEC1-9718-469C-A24A-4EA30690E995}" Type="Ref">/cRIO gm/Chassis/AI1/AI0</Property>
 	<Property Name="varPersistentID:{AF101C34-B043-4F48-905B-08DC2F3F6101}" Type="Ref">/cRIO gm/Chassis/DO/DO3</Property>
 	<Property Name="varPersistentID:{AF7C4633-0D68-4A11-B3CF-1728649B9C8A}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO19</Property>
@@ -273,6 +305,7 @@
 	<Property Name="varPersistentID:{B47FB852-3ACC-40E1-A9B2-F85524763FF0}" Type="Ref">/cRIO gm/Chassis/DI1/DI10</Property>
 	<Property Name="varPersistentID:{B4A887C8-3FA4-413C-B067-01ECC5A08B91}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 P4 ERR</Property>
 	<Property Name="varPersistentID:{B4AAB054-B5E2-4122-BBA9-838D0ADA8E19}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/process variable</Property>
+	<Property Name="varPersistentID:{B557CE58-A8C8-44CC-9833-C01D99938B8F}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/derivative time (Td, min)</Property>
 	<Property Name="varPersistentID:{B5716B50-99EC-40B7-9DE0-29E0D188BA47}" Type="Ref">/cRIO b2g2/Chassis/DI1/B2G2 V10 1</Property>
 	<Property Name="varPersistentID:{B5AA2EA2-9219-4247-B078-263A16757E4A}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO5</Property>
 	<Property Name="varPersistentID:{B64C8530-FFCD-4910-9708-AE75A5847D2A}" Type="Ref">/cRIO gm/Chassis/DI2/B2G1 T2 V1.1 0</Property>
@@ -294,6 +327,7 @@
 	<Property Name="varPersistentID:{C3E7A998-E4F3-4733-B2FF-4F291275528F}" Type="Ref">/cRIO b2g1/Chassis/DO1/B2G1 V14</Property>
 	<Property Name="varPersistentID:{C403BDE2-7DBC-4F42-8F46-319885CB0F48}" Type="Ref">/cRIO gm/variables - gm.lvlib/data - network - gm</Property>
 	<Property Name="varPersistentID:{C40AFD5A-7F2C-4AA8-BFFB-556BBC7C67BB}" Type="Ref">/cRIO gm/Chassis/DI2/Fab1 HR V1.1 0</Property>
+	<Property Name="varPersistentID:{C4544690-FAC1-4270-BBCA-8928691EF03F}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/manual control</Property>
 	<Property Name="varPersistentID:{C47C43DD-28A6-4BA3-9C8C-CEBD223F0D21}" Type="Ref">/cRIO gm/Chassis/AI1/AI15</Property>
 	<Property Name="varPersistentID:{C594D603-19FF-48AC-8693-D31D3C50BD34}" Type="Ref">/cRIO b2g2/Chassis/DI1/DI22</Property>
 	<Property Name="varPersistentID:{C7AA4182-DE05-4889-964B-F365FE9FD5FB}" Type="Ref">/cRIO gm/Chassis/DO/B2G1 MR V-1, V-1.1</Property>
@@ -302,6 +336,8 @@
 	<Property Name="varPersistentID:{C913A936-F575-4F74-9AD3-77161EF347BC}" Type="Ref">/cRIO b2g2/Chassis/AII1/B2G2 TS5</Property>
 	<Property Name="varPersistentID:{CA193243-6146-49EA-A5E6-1A2F89DF9573}" Type="Ref">/cRIO b2g1/Chassis/DI1/B2G1 V33 0</Property>
 	<Property Name="varPersistentID:{CA766E37-4C44-4719-9134-1552FF1FF078}" Type="Ref">/cRIO gm/Chassis/DI2/B2G2 MR V1.1 1</Property>
+	<Property Name="varPersistentID:{CBAA5C9A-C7E7-4533-B14A-700978A40F8D}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/dt out (s)</Property>
+	<Property Name="varPersistentID:{CBFA69A9-C2AD-42C0-A7FF-CC00D0AC19FD}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/setpoint low</Property>
 	<Property Name="varPersistentID:{CC322206-9531-44C7-9975-3D363264C42A}" Type="Ref">/cRIO b2g2/vi/ReadIOValues b2g2.vi/DFS-1 Volume/done</Property>
 	<Property Name="varPersistentID:{CCA1EB98-A081-4628-9B7B-0F9295E9AE71}" Type="Ref">/cRIO gm/Chassis/DI2/B2G2 MR V1.1 0</Property>
 	<Property Name="varPersistentID:{CCE00FE7-4EBE-4568-A59D-CA19245E33A1}" Type="Ref">/cRIO b2g1/vi/ReadIOValues b2g1.vi/DFS-1 Volume/error in</Property>
@@ -360,12 +396,14 @@
 	<Property Name="varPersistentID:{F34F8E7E-E76E-44E4-873C-E3ACBFCCD4CB}" Type="Ref">/cRIO b2g1/variables - b2g1.lvlib/input - network b2g1</Property>
 	<Property Name="varPersistentID:{F3CFC9AE-3F71-4D9F-AD07-0F7CBD456825}" Type="Ref">/cRIO b2g1/Chassis/DO1/DO13</Property>
 	<Property Name="varPersistentID:{F55B80C0-2D57-4DD0-8A82-9171E02E3B89}" Type="Ref">/cRIO b2g2/vi/DosageCtl.vi/PID/reinitialize? (F)</Property>
+	<Property Name="varPersistentID:{F5776647-D1D8-4FE7-BE71-89198EDA26B3}" Type="Ref">/cRIO b2g2/vi/CirculationCtl.vi/PID/derivative time (Td, min)</Property>
 	<Property Name="varPersistentID:{F5DEC59C-D039-4C87-8661-73B486028B74}" Type="Ref">/cRIO gm/Chassis/DO/Fab 2 HR V-1, V-1.1</Property>
 	<Property Name="varPersistentID:{F614033F-7409-48C6-9DF3-FD979A0FB871}" Type="Ref">/cRIO gm/Chassis/DI2/GA V-4 0</Property>
 	<Property Name="varPersistentID:{F65F2B6A-F819-45B4-887C-33FEDCE552B4}" Type="Ref">/cRIO b2g1/Chassis/AII1/B2G1 DFS1</Property>
 	<Property Name="varPersistentID:{F6FE6D31-6D47-431B-8F17-0CC9C2C9E28E}" Type="Ref">/cRIO b2g2/Chassis/DO1/DO3</Property>
 	<Property Name="varPersistentID:{F74EF0A5-5E21-4015-9F71-D129A22F86B6}" Type="Ref">/cRIO gm/Chassis/DI2/GA V-2 1</Property>
 	<Property Name="varPersistentID:{F8345EC3-4CED-4F86-B5ED-384F45CA6A0D}" Type="Ref">/cRIO b2g2/variables - b2g2.lvlib/input - RT b2g2</Property>
+	<Property Name="varPersistentID:{F9A3CFA3-8F8F-4329-B84A-7214CBAA4A6A}" Type="Ref">/cRIO b2g1/vi/CirculationCtl.vi/PID/error in</Property>
 	<Property Name="varPersistentID:{FC38AFAC-698B-4114-ACEE-F25ABA9B2766}" Type="Ref">/cRIO gm/Chassis/AI1/AI5</Property>
 	<Property Name="varPersistentID:{FD0B856D-3326-40ED-8045-CAB83C8525DF}" Type="Ref">/cRIO gm/Chassis/DI1/GM MP manual V-1.1 0</Property>
 	<Property Name="varPersistentID:{FE826857-5871-4FCD-B0CE-F0FB3F95F9FE}" Type="Ref">/cRIO b2g1/vi/ReadIOValues b2g1.vi/DFS-1 Volume/reset</Property>
@@ -385,6 +423,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ctls" Type="Folder">
+			<Item Name="Ventil_Waagrecht.ctl" Type="VI" URL="../Ventil_Waagrecht.ctl"/>
+			<Item Name="Ventil_Senkrecht.ctl" Type="VI" URL="../Ventil_Senkrecht.ctl"/>
+			<Item Name="Regelventil_Senkrecht.ctl" Type="VI" URL="../Regelventil_Senkrecht.ctl"/>
 			<Item Name="B2G2_host_db_log_vars.ctl" Type="VI" URL="../B2G2_host_db_log_vars.ctl"/>
 			<Item Name="Regelventil.ctl" Type="VI" URL="../Regelventil.ctl"/>
 			<Item Name="valve_h.ctl" Type="VI" URL="../valve_h.ctl"/>
@@ -395,6 +436,8 @@
 			<Item Name="VentilS.ctl" Type="VI" URL="../VentilS.ctl"/>
 			<Item Name="GM_host_db_log_vars.ctl" Type="VI" URL="../GM_host_db_log_vars.ctl"/>
 			<Item Name="B2G1_host_db_log_vars.ctl" Type="VI" URL="../B2G1_host_db_log_vars.ctl"/>
+			<Item Name="Gassack_links.ctl" Type="VI" URL="../Gassack_links.ctl"/>
+			<Item Name="Gassack_rechts.ctl" Type="VI" URL="../Gassack_rechts.ctl"/>
 		</Item>
 		<Item Name="vis" Type="Folder">
 			<Item Name="log" Type="Folder">
@@ -438,6 +481,7 @@
 				<Item Name="UiSchematic_b2g1.vi" Type="VI" URL="../UiSchematic_b2g1.vi"/>
 				<Item Name="UiSchematic_b2g2.vi" Type="VI" URL="../UiSchematic_b2g2.vi"/>
 				<Item Name="UiSchematic_gm.vi" Type="VI" URL="../UiSchematic_gm.vi"/>
+				<Item Name="Ventil_bool_to_ring.vi" Type="VI" URL="../Ventil_bool_to_ring.vi"/>
 			</Item>
 			<Item Name="old" Type="Folder">
 				<Item Name="Test-UI.vi" Type="VI" URL="../Test-UI.vi"/>
@@ -483,6 +527,7 @@
 			</Item>
 			<Item Name="test" Type="Folder">
 				<Item Name="TempCtl_test.vi" Type="VI" URL="../TempCtl_test.vi"/>
+				<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 			</Item>
 			<Item Name="datadashboard" Type="Folder">
 				<Item Name="data_dashboard_feed.vi" Type="VI" URL="../data_dashboard_feed.vi"/>
@@ -502,7 +547,6 @@
 			<Item Name="B2G_db_rz.dsn" Type="Document" URL="../B2G_db_rz.dsn"/>
 			<Item Name="B2G_db_rz_ro.dsn" Type="Document" URL="../B2G_db_rz_ro.dsn"/>
 		</Item>
-		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
@@ -3438,7 +3482,6 @@ KeepAliveTimeout 60
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -3491,7 +3534,29 @@ KeepAliveTimeout 60
 			<Item Name="b2g1_sqlite_log_time.vi" Type="VI" URL="../b2g1_sqlite_log_time.vi"/>
 			<Item Name="b2g1_sqlite_write_time.vi" Type="VI" URL="../b2g1_sqlite_write_time.vi"/>
 			<Item Name="b2g_sqlite_write_feedflash.vi" Type="VI" URL="../b2g_sqlite_write_feedflash.vi"/>
-			<Item Name="CirculationCtl.vi" Type="VI" URL="../CirculationCtl.vi"/>
+			<Item Name="CirculationCtl.vi" Type="VI" URL="../CirculationCtl.vi">
+				<Item Name="PID" Type="IIO Function Block">
+					<Item Name="auto? (T)" Type="Variable"/>
+					<Item Name="beta" Type="Variable"/>
+					<Item Name="derivative time (Td, min)" Type="Variable"/>
+					<Item Name="dt (s)" Type="Variable"/>
+					<Item Name="dt out (s)" Type="Variable"/>
+					<Item Name="error in" Type="Variable"/>
+					<Item Name="error out" Type="Variable"/>
+					<Item Name="integral time (Ti, min)" Type="Variable"/>
+					<Item Name="linearity" Type="Variable"/>
+					<Item Name="manual control" Type="Variable"/>
+					<Item Name="output" Type="Variable"/>
+					<Item Name="output high" Type="Variable"/>
+					<Item Name="output low" Type="Variable"/>
+					<Item Name="process variable" Type="Variable"/>
+					<Item Name="proportional gain (Kc)" Type="Variable"/>
+					<Item Name="reinitialize? (F)" Type="Variable"/>
+					<Item Name="setpoint" Type="Variable"/>
+					<Item Name="setpoint high" Type="Variable"/>
+					<Item Name="setpoint low" Type="Variable"/>
+				</Item>
+			</Item>
 			<Item Name="DosageCtl.vi" Type="VI" URL="../DosageCtl.vi">
 				<Item Name="PID" Type="IIO Function Block">
 					<Item Name="auto? (T)" Type="Variable"/>
@@ -5118,13 +5183,11 @@ KeepAliveTimeout 60
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FB Overlay DBL.ctl" Type="VI" URL="/&lt;vilib&gt;/functionblocks/FB Property/FB Overlay DBL.ctl"/>
-				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>
+			<Item Name="Hidden Library 5" Type="Document"/>
 			<Item Name="sqlite_generate_sql_insert_time.vi" Type="VI" URL="../sqlite_generate_sql_insert_time.vi"/>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="B2G1" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -5184,6 +5247,7 @@ KeepAliveTimeout 60
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -5236,7 +5300,29 @@ KeepAliveTimeout 60
 			<Item Name="b2g2_sqlite_log_time.vi" Type="VI" URL="../b2g2_sqlite_log_time.vi"/>
 			<Item Name="b2g2_sqlite_write_time.vi" Type="VI" URL="../b2g2_sqlite_write_time.vi"/>
 			<Item Name="b2g_sqlite_write_feedflash.vi" Type="VI" URL="../b2g_sqlite_write_feedflash.vi"/>
-			<Item Name="CirculationCtl.vi" Type="VI" URL="../CirculationCtl.vi"/>
+			<Item Name="CirculationCtl.vi" Type="VI" URL="../CirculationCtl.vi">
+				<Item Name="PID" Type="IIO Function Block">
+					<Item Name="auto? (T)" Type="Variable"/>
+					<Item Name="beta" Type="Variable"/>
+					<Item Name="derivative time (Td, min)" Type="Variable"/>
+					<Item Name="dt (s)" Type="Variable"/>
+					<Item Name="dt out (s)" Type="Variable"/>
+					<Item Name="error in" Type="Variable"/>
+					<Item Name="error out" Type="Variable"/>
+					<Item Name="integral time (Ti, min)" Type="Variable"/>
+					<Item Name="linearity" Type="Variable"/>
+					<Item Name="manual control" Type="Variable"/>
+					<Item Name="output" Type="Variable"/>
+					<Item Name="output high" Type="Variable"/>
+					<Item Name="output low" Type="Variable"/>
+					<Item Name="process variable" Type="Variable"/>
+					<Item Name="proportional gain (Kc)" Type="Variable"/>
+					<Item Name="reinitialize? (F)" Type="Variable"/>
+					<Item Name="setpoint" Type="Variable"/>
+					<Item Name="setpoint high" Type="Variable"/>
+					<Item Name="setpoint low" Type="Variable"/>
+				</Item>
+			</Item>
 			<Item Name="cluster-head-to-file.vi" Type="VI" URL="../cluster-head-to-file.vi"/>
 			<Item Name="DosageCtl.vi" Type="VI" URL="../DosageCtl.vi">
 				<Item Name="PID" Type="IIO Function Block">
