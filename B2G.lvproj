@@ -537,7 +537,7 @@
 			<Item Name="UiMonitor.vi" Type="VI" URL="../UiMonitor.vi"/>
 			<Item Name="B2G1_UiStdControl.vi" Type="VI" URL="../B2G1_UiStdControl.vi"/>
 			<Item Name="B2G2_UiStdControl.vi" Type="VI" URL="../B2G2_UiStdControl.vi"/>
-			<Item Name="UiStdControl_gm.vi" Type="VI" URL="../UiStdControl_gm.vi"/>
+			<Item Name="GM_UiStdControl.vi" Type="VI" URL="../GM_UiStdControl.vi"/>
 			<Item Name="B2G2_host_db_logging.vi" Type="VI" URL="../B2G2_host_db_logging.vi"/>
 			<Item Name="B2G1_host_db_logging.vi" Type="VI" URL="../B2G1_host_db_logging.vi"/>
 			<Item Name="GM_host_db_logging.vi" Type="VI" URL="../GM_host_db_logging.vi"/>
@@ -799,8 +799,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C470FDFF-F8D6-41FF-8877-FBDDCEF91ACC}</Property>
-				<Property Name="Destination[0].destName" Type="Str">B2G1_host_db_logging.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/B2G1_host_db_logging.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">B2G1_host_db_logging1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/B2G1_host_db_logging1.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -809,7 +809,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2D814974-CAEC-4594-97F2-BF4D1136EBB0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{48A8A30E-FA15-4E90-B032-2AE379C3E7EA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/B2G1_UiStdControl.vi</Property>
@@ -851,11 +851,11 @@
 				<Property Name="SourceCount" Type="Int">13</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">UiStandard</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">13</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">14</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B0E98F60-AAA5-4FF4-938E-F167B77A0F1C}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">B2G1_host_db_logging.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">B2G1_host_db_logging1.exe</Property>
 			</Item>
 			<Item Name="B2G1_UiStdControl" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -952,8 +952,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{98AD6115-5C66-48CE-9DC9-B7BC54263DFC}</Property>
-				<Property Name="Destination[0].destName" Type="Str">B2G2_host_db_logging.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/B2G2_host_db_logging.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">B2G2_host_db_logging1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/B2G2_host_db_logging1.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -961,7 +961,7 @@
 				<Property Name="Destination[1].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2D814974-CAEC-4594-97F2-BF4D1136EBB0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{48A8A30E-FA15-4E90-B032-2AE379C3E7EA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/B2G1_UiStdControl.vi</Property>
@@ -987,11 +987,11 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">17</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">18</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1F10DB52-1358-46F1-BC5D-75F927E68DA6}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">B2G2_host_db_logging.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">B2G2_host_db_logging1.exe</Property>
 			</Item>
 			<Item Name="B2G2_UiStdControl" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -1004,8 +1004,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2079A4F6-E056-4A49-9ADA-31805A9E0C8A}</Property>
-				<Property Name="Destination[0].destName" Type="Str">B2G2_UiStdControl.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/B2G2_UiStdControl.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">B2G2_UiStdControl1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/B2G2_UiStdControl1.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -1014,7 +1014,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{79505000-0D05-4F34-BC02-F7012050E8D9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{48A8A30E-FA15-4E90-B032-2AE379C3E7EA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/B2G1_UiStdControl.vi</Property>
@@ -1073,7 +1073,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
 				<Property Name="TgtF_productName" Type="Str">UiStandard</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{4A113C4B-E893-4BDC-A8CB-2DCFCABFCB46}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">B2G2_UiStdControl.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">B2G2_UiStdControl1.exe</Property>
 			</Item>
 			<Item Name="DB_input_B2G1_MR_gas_meas" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -1220,8 +1220,8 @@
 				<Property Name="Bld_localDestDir" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4B4AB6CA-DC87-4772-8DE5-0C56BF4DE651}</Property>
-				<Property Name="Destination[0].destName" Type="Str">GM_host_db_logging.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/GM_host_db_logging.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">GM_host_db_logging1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/GM_host_db_logging1.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -1229,7 +1229,7 @@
 				<Property Name="Destination[1].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2D814974-CAEC-4594-97F2-BF4D1136EBB0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{48A8A30E-FA15-4E90-B032-2AE379C3E7EA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/GM_host_db_logging.vi</Property>
@@ -1245,7 +1245,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
 				<Property Name="TgtF_productName" Type="Str">GM_host_db_logging</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D186F9AB-C50A-4C92-8913-248975F31AB6}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">GM_host_db_logging.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GM_host_db_logging1.exe</Property>
 			</Item>
 			<Item Name="GM_UiStdControl" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -1267,10 +1267,10 @@
 				<Property Name="Destination[1].path" Type="Path">//440-server/user/740/Landesanstalt/Projekt_B2G_FABES/NI_AB_PROJECTNAME/Anwendungen/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2D814974-CAEC-4594-97F2-BF4D1136EBB0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5864692C-EE5F-4A57-BC56-9DAAB0565698}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/UiStdControl_gm.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/vis/GM_UiStdControl.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -1534,6 +1534,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -3449,7 +3450,7 @@ KeepAliveTimeout 60
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="RTExe_localDestPath" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/GM</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BC7AC577-3F6B-455E-8E8A-45351B111CCF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FEE8BCB3-F338-43F5-8996-4D1A70FC3CE2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/cRIO gm/target_gm.vi</Property>
@@ -5186,7 +5187,6 @@ KeepAliveTimeout 60
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Hidden Library 5" Type="Document"/>
 			<Item Name="sqlite_generate_sql_insert_time.vi" Type="VI" URL="../sqlite_generate_sql_insert_time.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
